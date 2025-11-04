@@ -1,0 +1,16 @@
+2025-10-15 21:37:45,260 - backend.utils.logger - INFO - Creating database tables...
+2025-10-15 21:37:45,383 - backend.utils.logger - ERROR - Error creating tables: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "food_recommendation" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-15 21:42:21,783 - backend.utils.logger - INFO - Creating database tables...
+2025-10-15 21:42:21,943 - backend.utils.logger - INFO - Created tables: users, health_conditions, foods, user_condition_associations, user_foods
+2025-10-15 21:43:17,415 - backend.utils.logger - INFO - ==================================================
+2025-10-15 21:43:17,415 - backend.utils.logger - INFO - Starting data loading process...
+2025-10-15 21:43:17,418 - backend.utils.logger - INFO - ==================================================
+2025-10-15 21:43:17,418 - backend.utils.logger - ERROR - File not found: data\health_condition.csv
+2025-10-15 21:43:17,418 - backend.utils.logger - ERROR - Failed to load health conditions
+2025-10-15 21:44:13,501 - backend.utils.logger - INFO - ==================================================
+2025-10-15 21:44:13,501 - backend.utils.logger - INFO - Starting data loading process...
+2025-10-15 21:44:13,501 - backend.utils.logger - INFO - ==================================================
+2025-10-26 20:34:53,121 - backend.utils.logger - INFO - Creating database tables...
+2025-10-26 20:34:53,281 - backend.utils.logger - INFO - Created tables: users, health_conditions, foods, user_condition_associations, user_foods

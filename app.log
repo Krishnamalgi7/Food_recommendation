@@ -1,0 +1,1913 @@
+2025-10-26 18:29:05,972 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:29:05,972 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:29:05,972 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:29:05,972 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:29:05,972 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:29:05,972 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:29:05,972 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:29:08,215 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:29:08,215 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:29:08,215 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:29:08,215 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:29:08,215 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:29:08,215 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:29:08,215 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:29:08,215 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:29:31,121 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:29:31,121 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:29:31,121 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:29:31,121 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:29:31,121 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:29:31,121 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:29:31,121 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:29:31,121 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:32:43,416 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:32:43,416 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:32:43,416 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:32:43,416 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:32:43,416 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:32:43,416 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:32:43,416 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:32:48,021 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:32:48,021 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:32:48,021 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:32:48,021 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:32:48,021 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:32:48,021 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:32:48,021 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:33:35,784 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:33:35,784 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:33:35,784 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:33:35,784 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:33:35,784 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:33:35,784 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:33:35,784 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:36:47,946 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 18:36:47,946 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 18:36:47,946 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 18:36:47,946 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 18:36:47,946 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 18:36:47,946 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 18:36:47,946 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 18:36:48,055 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 18:36:48,055 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 18:36:48,055 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 18:36:48,055 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 18:36:48,055 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 18:36:48,055 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 18:36:48,055 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 18:36:48,146 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 18:36:48,146 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 18:36:48,146 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 18:36:48,146 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 18:36:48,146 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 18:36:48,146 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 18:36:48,146 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 18:36:48,146 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:36:48,146 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:36:48,146 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:36:48,146 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:36:48,146 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:36:48,146 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:36:48,146 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:36:48,163 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:36:48,163 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:36:48,163 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:36:48,163 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:36:48,163 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:36:48,163 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:36:48,163 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:36:48,175 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:36:48,175 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:36:48,175 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:36:48,175 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:36:48,175 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:36:48,175 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:36:48,175 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:36:48,175 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:36:48,175 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:36:48,175 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:36:48,175 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:36:48,175 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:36:48,175 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:36:48,175 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:38:28,345 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 18:38:28,345 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 18:38:28,345 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 18:38:28,345 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 18:38:28,345 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 18:38:28,345 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 18:38:28,345 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 18:38:34,793 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:38:34,793 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:38:34,793 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:38:34,793 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:38:34,793 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:38:34,793 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:38:34,793 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:41:58,971 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:41:58,971 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:41:58,971 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:41:58,971 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:41:58,971 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:41:58,971 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:41:58,971 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:42:07,734 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:42:07,734 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:42:07,734 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:42:07,734 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:42:07,734 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:42:07,734 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:42:07,734 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:42:33,087 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:42:33,087 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:42:33,087 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:42:33,087 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:42:33,087 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:42:33,087 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:42:33,087 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:42:33,102 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:42:33,102 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:42:33,102 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:42:33,102 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:42:33,102 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:42:33,102 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:42:33,102 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:42:33,104 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:42:33,104 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:42:33,104 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:42:33,104 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:42:33,104 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:42:33,104 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:42:33,104 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:42:33,104 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:42:33,104 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:42:33,104 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:42:33,104 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:42:33,104 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:42:33,104 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:42:33,104 - backend.utils.logger - INFO - Generated 20 recommendations for user 2
+2025-10-26 18:42:45,919 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:42:45,919 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:42:45,919 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:42:45,919 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:42:45,919 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:42:45,919 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:42:45,919 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:42:48,751 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:42:48,751 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:42:48,751 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:42:48,751 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:42:48,751 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:42:48,751 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:42:48,751 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:44:06,195 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 18:44:06,195 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 18:44:06,195 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 18:44:06,195 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 18:44:06,195 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 18:44:06,195 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 18:44:06,195 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 18:44:06,251 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 18:44:06,251 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 18:44:06,251 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 18:44:06,251 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 18:44:06,251 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 18:44:06,251 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 18:44:06,251 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 18:44:06,315 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 18:44:06,315 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 18:44:06,315 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 18:44:06,315 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 18:44:06,315 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 18:44:06,315 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 18:44:06,315 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 18:44:06,317 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:44:06,317 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:44:06,317 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:44:06,317 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:44:06,317 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:44:06,317 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:44:06,317 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:44:06,323 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:44:06,323 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:44:06,323 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:44:06,323 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:44:06,323 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:44:06,323 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:44:06,323 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:44:06,327 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:44:06,327 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:44:06,327 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:44:06,327 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:44:06,327 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:44:06,327 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:44:06,327 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:44:06,327 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:44:06,327 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:44:06,327 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:44:06,327 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:44:06,327 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:44:06,327 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:44:06,327 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:45:36,670 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 18:45:36,670 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 18:45:36,670 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 18:45:36,670 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 18:45:36,670 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 18:45:36,670 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 18:45:36,670 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 18:45:51,203 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:45:51,203 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:45:51,203 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:45:51,203 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:45:51,203 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:45:51,203 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:45:51,203 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:46:49,386 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:46:49,386 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:46:49,386 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:46:49,386 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:46:49,386 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:46:49,386 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:46:49,386 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:47:01,838 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:47:01,838 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:47:01,838 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:47:01,838 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:47:01,838 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:47:01,838 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:47:01,838 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:47:04,623 - backend.utils.logger - INFO - User 'chandan' created with condition ID: 12
+2025-10-26 18:47:04,623 - backend.utils.logger - INFO - User 'chandan' created with condition ID: 12
+2025-10-26 18:47:04,623 - backend.utils.logger - INFO - User 'chandan' created with condition ID: 12
+2025-10-26 18:47:04,623 - backend.utils.logger - INFO - User 'chandan' created with condition ID: 12
+2025-10-26 18:47:04,623 - backend.utils.logger - INFO - User 'chandan' created with condition ID: 12
+2025-10-26 18:47:04,623 - backend.utils.logger - INFO - User 'chandan' created with condition ID: 12
+2025-10-26 18:47:04,623 - backend.utils.logger - INFO - User 'chandan' created with condition ID: 12
+2025-10-26 18:47:12,581 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:47:12,581 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:47:12,581 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:47:12,581 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:47:12,581 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:47:12,581 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:47:12,581 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-10-26 18:47:28,079 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 18:47:28,079 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 18:47:28,079 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 18:47:28,079 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 18:47:28,079 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 18:47:28,079 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 18:47:28,079 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 18:48:12,812 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 18:48:12,812 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 18:48:12,812 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 18:48:12,812 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 18:48:12,812 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 18:48:12,812 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 18:48:12,812 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 18:48:12,822 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 18:48:12,822 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 18:48:12,822 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 18:48:12,822 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 18:48:12,822 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 18:48:12,822 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 18:48:12,822 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 18:48:12,830 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 18:48:12,830 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 18:48:12,830 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 18:48:12,830 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 18:48:12,830 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 18:48:12,830 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 18:48:12,830 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 18:48:12,830 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 18:48:12,830 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 18:48:12,830 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 18:48:12,830 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 18:48:12,830 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 18:48:12,830 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 18:48:12,830 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 18:49:08,093 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 18:49:08,093 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 18:49:08,093 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 18:49:08,093 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 18:49:08,093 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 18:49:08,093 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 18:49:08,093 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 18:49:26,459 - backend.utils.logger - WARNING - Failed login attempt for user: Krishna
+2025-10-26 18:49:26,459 - backend.utils.logger - WARNING - Failed login attempt for user: Krishna
+2025-10-26 18:49:26,459 - backend.utils.logger - WARNING - Failed login attempt for user: Krishna
+2025-10-26 18:49:26,459 - backend.utils.logger - WARNING - Failed login attempt for user: Krishna
+2025-10-26 18:49:26,459 - backend.utils.logger - WARNING - Failed login attempt for user: Krishna
+2025-10-26 18:49:26,459 - backend.utils.logger - WARNING - Failed login attempt for user: Krishna
+2025-10-26 18:49:26,459 - backend.utils.logger - WARNING - Failed login attempt for user: Krishna
+2025-10-26 18:49:38,159 - backend.utils.logger - WARNING - Failed login attempt for user: Krishna
+2025-10-26 18:49:38,159 - backend.utils.logger - WARNING - Failed login attempt for user: Krishna
+2025-10-26 18:49:38,159 - backend.utils.logger - WARNING - Failed login attempt for user: Krishna
+2025-10-26 18:49:38,159 - backend.utils.logger - WARNING - Failed login attempt for user: Krishna
+2025-10-26 18:49:38,159 - backend.utils.logger - WARNING - Failed login attempt for user: Krishna
+2025-10-26 18:49:38,159 - backend.utils.logger - WARNING - Failed login attempt for user: Krishna
+2025-10-26 18:49:38,159 - backend.utils.logger - WARNING - Failed login attempt for user: Krishna
+2025-10-26 18:50:57,495 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:50:57,495 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:50:57,495 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:50:57,495 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:50:57,495 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:50:57,495 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:50:57,495 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 18:51:21,497 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:51:21,497 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:51:21,497 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:51:21,497 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:51:21,497 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:51:21,497 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:51:21,497 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:51:21,503 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:51:21,503 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:51:21,503 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:51:21,503 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:51:21,503 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:51:21,503 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:51:21,503 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:51:21,507 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:51:21,507 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:51:21,507 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:51:21,507 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:51:21,507 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:51:21,507 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:51:21,507 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 18:51:21,507 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:51:21,507 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:51:21,507 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:51:21,507 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:51:21,507 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:51:21,507 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:51:21,507 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 18:54:25,710 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:54:25,710 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:54:25,710 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:54:25,710 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:54:25,710 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:54:25,710 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:54:25,710 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 18:54:39,971 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:54:39,971 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:54:39,971 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:54:39,971 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:54:39,971 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:54:39,971 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 18:54:39,971 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:00:03,197 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:00:03,197 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:00:03,197 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:00:03,197 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:00:03,197 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:00:03,197 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:00:03,197 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:02:10,905 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:02:10,905 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:02:10,905 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:02:10,905 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:02:10,905 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:02:10,905 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:02:10,905 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:03:29,512 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:03:29,512 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:03:29,512 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:03:29,512 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:03:29,512 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:03:29,512 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:03:29,512 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:03:58,318 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:03:58,318 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:03:58,318 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:03:58,318 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:03:58,318 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:03:58,318 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:03:58,318 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:04:10,847 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:04:10,847 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:04:10,847 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:04:10,847 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:04:10,847 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:04:10,847 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:04:10,847 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:04:19,960 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:04:19,960 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:04:19,960 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:04:19,960 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:04:19,960 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:04:19,960 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:04:19,960 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:18:09,159 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:18:09,159 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:18:09,159 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:18:09,159 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:18:09,159 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:18:09,159 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:18:09,159 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:18:32,364 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 19:18:32,364 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 19:18:32,364 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 19:18:32,364 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 19:18:32,364 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 19:18:32,364 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 19:18:32,364 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 19:19:02,140 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:19:02,140 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:19:02,140 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:19:02,140 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:19:02,140 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:19:02,140 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:19:02,140 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:19:02,231 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:19:02,231 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:19:02,231 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:19:02,231 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:19:02,231 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:19:02,231 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:19:02,231 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:19:02,331 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:19:02,331 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:19:02,331 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:19:02,331 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:19:02,331 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:19:02,331 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:19:02,331 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:19:02,340 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:02,340 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:02,340 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:02,340 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:02,340 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:02,340 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:02,340 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:02,348 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:19:02,348 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:19:02,348 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:19:02,348 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:19:02,348 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:19:02,348 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:19:02,348 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:19:02,348 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:02,348 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:02,348 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:02,348 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:02,348 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:02,348 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:02,348 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:02,348 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:19:02,348 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:19:02,348 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:19:02,348 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:19:02,348 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:19:02,348 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:19:02,348 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:19:30,463 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:30,463 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:30,463 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:30,463 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:30,463 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:30,463 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:30,463 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:30,471 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:19:30,471 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:19:30,471 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:19:30,471 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:19:30,471 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:19:30,471 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:19:30,471 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:19:30,474 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:30,474 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:30,474 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:30,474 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:30,474 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:30,474 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:30,474 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:19:30,474 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:19:30,474 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:19:30,474 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:19:30,474 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:19:30,474 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:19:30,474 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:19:30,474 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:20:09,497 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 19:20:09,497 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 19:20:09,497 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 19:20:09,497 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 19:20:09,497 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 19:20:09,497 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 19:20:09,497 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 19:20:25,777 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 19:20:25,777 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 19:20:25,777 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 19:20:25,777 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 19:20:25,777 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 19:20:25,777 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 19:20:25,777 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 19:20:53,661 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:20:53,661 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:20:53,661 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:20:53,661 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:20:53,661 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:20:53,661 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:20:53,661 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:20:53,672 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:20:53,672 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:20:53,672 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:20:53,672 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:20:53,672 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:20:53,672 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:20:53,672 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:20:53,672 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:20:53,672 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:20:53,672 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:20:53,672 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:20:53,672 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:20:53,672 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:20:53,672 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:20:53,672 - backend.utils.logger - INFO - Generated 0 recommendations for user 3
+2025-10-26 19:20:53,672 - backend.utils.logger - INFO - Generated 0 recommendations for user 3
+2025-10-26 19:20:53,672 - backend.utils.logger - INFO - Generated 0 recommendations for user 3
+2025-10-26 19:20:53,672 - backend.utils.logger - INFO - Generated 0 recommendations for user 3
+2025-10-26 19:20:53,672 - backend.utils.logger - INFO - Generated 0 recommendations for user 3
+2025-10-26 19:20:53,672 - backend.utils.logger - INFO - Generated 0 recommendations for user 3
+2025-10-26 19:20:53,672 - backend.utils.logger - INFO - Generated 0 recommendations for user 3
+2025-10-26 19:21:57,494 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:21:57,494 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:21:57,494 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:21:57,494 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:21:57,494 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:21:57,494 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:21:57,494 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:22:03,094 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:22:03,094 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:22:03,094 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:22:03,094 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:22:03,094 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:22:03,094 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:22:03,094 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:22:29,494 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:22:29,494 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:22:29,494 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:22:29,494 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:22:29,494 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:22:29,494 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:22:29,494 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:22:29,501 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:22:29,501 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:22:29,501 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:22:29,501 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:22:29,501 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:22:29,501 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:22:29,501 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:22:29,526 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:22:29,526 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:22:29,526 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:22:29,526 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:22:29,526 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:22:29,526 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:22:29,526 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:22:31,788 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:22:31,788 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:22:31,788 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:22:31,788 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:22:31,788 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:22:31,788 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:22:31,788 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:29:31,554 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 19:29:31,554 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 19:29:31,554 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 19:29:31,554 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 19:29:31,554 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 19:29:31,554 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 19:29:31,554 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 19:29:31,559 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:29:31,559 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:29:31,559 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:29:31,559 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:29:31,559 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:29:31,559 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:29:31,559 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 19:29:31,559 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 19:29:31,559 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 19:29:31,559 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 19:29:31,559 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 19:29:31,559 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 19:29:31,559 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 19:29:31,559 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 19:32:49,743 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 19:32:49,743 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 19:32:49,743 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 19:32:49,743 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 19:32:49,743 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 19:32:49,743 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 19:32:49,743 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 19:33:02,086 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 19:33:02,086 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 19:33:02,086 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 19:33:02,086 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 19:33:02,086 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 19:33:02,086 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 19:33:02,086 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 19:36:59,942 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:36:59,942 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:36:59,942 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:36:59,942 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:36:59,942 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:36:59,942 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:36:59,942 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:37:03,836 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:37:03,836 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:37:03,836 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:37:03,836 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:37:03,836 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:37:03,836 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:37:03,836 - backend.utils.logger - WARNING - No foods found for category 'None' with required nutrients
+2025-10-26 19:37:03,838 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:37:03,838 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:37:03,838 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:37:03,838 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:37:03,838 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:37:03,838 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:37:03,838 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:37:03,838 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:37:03,838 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:37:03,838 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:37:03,838 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:37:03,838 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:37:03,838 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:37:03,838 - backend.utils.logger - INFO - Generated 0 recommendations for user 2
+2025-10-26 19:37:25,186 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:37:25,186 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:37:25,186 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:37:25,186 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:37:25,186 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:37:25,186 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:37:25,186 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:37:44,002 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:37:44,002 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:37:44,002 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:37:44,002 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:37:44,002 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:37:44,002 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:37:44,002 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:38:09,230 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:38:09,230 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:38:09,230 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:38:09,230 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:38:09,230 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:38:09,230 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:38:09,230 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:38:09,235 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:38:09,235 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:38:09,235 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:38:09,235 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:38:09,235 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:38:09,235 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:38:09,235 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:38:09,252 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:38:09,252 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:38:09,252 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:38:09,252 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:38:09,252 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:38:09,252 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:38:09,252 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:38:09,859 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:38:09,859 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:38:09,859 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:38:09,859 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:38:09,859 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:38:09,859 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:38:09,859 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:38:16,472 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:38:16,472 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:38:16,472 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:38:16,472 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:38:16,472 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:38:16,472 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:38:16,472 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:47:59,051 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:47:59,051 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:47:59,051 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:47:59,051 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:47:59,051 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:47:59,051 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:47:59,051 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:48:11,702 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:48:11,702 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:48:11,702 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:48:11,702 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:48:11,702 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:48:11,702 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:48:11,702 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 19:48:11,754 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:48:11,754 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:48:11,754 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:48:11,754 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:48:11,754 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:48:11,754 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:48:11,754 - backend.utils.logger - INFO - Feature matrix prepared and scaled
+2025-10-26 19:48:11,802 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:48:11,802 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:48:11,802 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:48:11,802 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:48:11,802 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:48:11,802 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:48:11,802 - backend.utils.logger - INFO - KNN model trained with 10 neighbors
+2025-10-26 19:48:11,818 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:48:11,818 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:48:11,818 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:48:11,818 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:48:11,818 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:48:11,818 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:48:11,818 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:48:11,819 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 19:57:57,701 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:57:57,701 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:57:57,701 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:57:57,701 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:57:57,701 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:57:57,701 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:57:57,701 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 19:57:59,391 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:57:59,391 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:57:59,391 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:57:59,391 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:57:59,391 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:57:59,391 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 19:57:59,391 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:02:23,939 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 20:02:23,939 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 20:02:23,939 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 20:02:23,939 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 20:02:23,939 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 20:02:23,939 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 20:02:23,939 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 20:02:25,727 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:02:25,727 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:02:25,727 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:02:25,727 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:02:25,727 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:02:25,727 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:02:25,727 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:41:48,490 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:41:48,490 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:41:48,490 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:41:48,490 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:41:48,490 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:41:48,490 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:41:48,490 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:42:17,102 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 20:42:17,102 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 20:42:17,102 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 20:42:17,102 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 20:42:17,102 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 20:42:17,102 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 20:42:17,102 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 20:43:47,917 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 20:43:47,917 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 20:43:47,917 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 20:43:47,917 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 20:43:47,917 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 20:43:47,917 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 20:43:47,917 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 20:43:47,967 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:43:47,967 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:43:47,967 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:43:47,967 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:43:47,967 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:43:47,967 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:43:47,967 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:43:47,984 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 20:43:47,984 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 20:43:47,984 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 20:43:47,984 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 20:43:47,984 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 20:43:47,984 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 20:43:47,984 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 20:43:47,984 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:43:47,984 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:43:47,984 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:43:47,984 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:43:47,984 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:43:47,984 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:43:47,984 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:43:47,999 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 20:43:47,999 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 20:43:47,999 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 20:43:47,999 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 20:43:47,999 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 20:43:47,999 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 20:43:47,999 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 20:56:18,419 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 20:56:18,419 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 20:56:18,419 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 20:56:18,419 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 20:56:18,419 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 20:56:18,419 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 20:56:18,419 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 20:56:21,106 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:56:21,106 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:56:21,106 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:56:21,106 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:56:21,106 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:56:21,106 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:56:21,106 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 20:56:55,580 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 20:56:55,580 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 20:56:55,580 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 20:56:55,580 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 20:56:55,580 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 20:56:55,580 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 20:56:55,580 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 20:56:55,630 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:56:55,630 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:56:55,630 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:56:55,630 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:56:55,630 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:56:55,630 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:56:55,630 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:56:55,647 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 20:56:55,647 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 20:56:55,647 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 20:56:55,647 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 20:56:55,647 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 20:56:55,647 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 20:56:55,647 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 20:56:55,662 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:56:55,662 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:56:55,662 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:56:55,662 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:56:55,662 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:56:55,662 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:56:55,662 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 20:56:55,662 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 20:56:55,662 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 20:56:55,662 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 20:56:55,662 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 20:56:55,662 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 20:56:55,662 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 20:56:55,662 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:06:19,518 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:06:19,518 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:06:19,518 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:06:19,518 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:06:19,518 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:06:19,518 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:06:19,518 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:06:24,623 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:06:24,623 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:06:24,623 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:06:24,623 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:06:24,623 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:06:24,623 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:06:24,623 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:06:57,853 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:06:57,853 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:06:57,853 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:06:57,853 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:06:57,853 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:06:57,853 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:06:57,853 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:06:59,933 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:06:59,933 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:06:59,933 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:06:59,933 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:06:59,933 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:06:59,933 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:06:59,933 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:07:35,714 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:07:35,714 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:07:35,714 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:07:35,714 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:07:35,714 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:07:35,714 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:07:35,714 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:07:35,765 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:07:35,765 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:07:35,765 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:07:35,765 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:07:35,765 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:07:35,765 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:07:35,765 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:07:35,787 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:07:35,787 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:07:35,787 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:07:35,787 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:07:35,787 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:07:35,787 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:07:35,787 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:07:35,789 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:07:35,789 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:07:35,789 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:07:35,789 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:07:35,789 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:07:35,789 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:07:35,789 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:07:35,789 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:07:35,789 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:07:35,789 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:07:35,789 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:07:35,789 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:07:35,789 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:07:35,789 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:09:08,941 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:09:08,941 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:09:08,941 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:09:08,941 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:09:08,941 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:09:08,941 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:09:08,941 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:09:11,147 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:09:11,147 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:09:11,147 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:09:11,147 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:09:11,147 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:09:11,147 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:09:11,147 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:09:20,554 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:09:20,554 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:09:20,554 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:09:20,554 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:09:20,554 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:09:20,554 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:09:20,554 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:09:24,989 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:09:24,989 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:09:24,989 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:09:24,989 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:09:24,989 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:09:24,989 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:09:24,989 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:09:40,527 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:09:40,527 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:09:40,527 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:09:40,527 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:09:40,527 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:09:40,527 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:09:40,527 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:10:06,210 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:10:06,210 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:10:06,210 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:10:06,210 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:10:06,210 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:10:06,210 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:10:06,210 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:10:06,260 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:10:06,260 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:10:06,260 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:10:06,260 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:10:06,260 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:10:06,260 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:10:06,260 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:10:06,276 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:12:41,622 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:12:41,622 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:12:41,622 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:12:41,622 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:12:41,622 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:12:41,622 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:12:41,622 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:12:43,351 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:12:43,351 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:12:43,351 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:12:43,351 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:12:43,351 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:12:43,351 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:12:43,351 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:12:54,417 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:12:54,417 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:12:54,417 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:12:54,417 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:12:54,417 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:12:54,417 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:12:54,417 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:12:59,905 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:12:59,905 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:12:59,905 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:12:59,905 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:12:59,905 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:12:59,905 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:12:59,905 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:13:20,872 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:13:20,872 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:13:20,872 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:13:20,872 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:13:20,872 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:13:20,872 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:13:20,872 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:13:20,938 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:13:20,938 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:13:20,938 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:13:20,938 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:13:20,938 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:13:20,938 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:13:20,938 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:13:20,938 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:13:20,938 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:13:20,938 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:13:20,938 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:13:20,938 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:13:20,938 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:13:20,938 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:13:20,955 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:13:20,955 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:13:20,955 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:13:20,955 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:13:20,955 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:13:20,955 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:13:20,955 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:13:20,955 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:13:20,955 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:13:20,955 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:13:20,955 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:13:20,955 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:13:20,955 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:13:20,955 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:14:47,913 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:14:47,913 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:14:47,913 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:14:47,913 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:14:47,913 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:14:47,913 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:14:47,913 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:15:17,895 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:15:17,895 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:15:17,895 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:15:17,895 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:15:17,895 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:15:17,895 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:15:17,895 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:15:17,936 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:15:17,936 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:15:17,936 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:15:17,936 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:15:17,936 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:15:17,936 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:15:17,936 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:19:15,156 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:19:15,156 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:19:15,156 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:19:15,156 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:19:15,156 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:19:15,156 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:19:15,156 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:19:36,595 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:19:36,595 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:19:36,595 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:19:36,595 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:19:36,595 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:19:36,595 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:19:36,595 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:19:36,744 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:19:36,744 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:19:36,744 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:19:36,744 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:19:36,744 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:19:36,744 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:19:36,744 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:19:39,297 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:19:39,297 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:19:39,297 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:19:39,297 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:19:39,297 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:19:39,297 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:19:39,297 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:34:05,611 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:34:05,611 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:34:05,611 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:34:05,611 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:34:05,611 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:34:05,611 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:34:05,611 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:34:21,621 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:34:21,621 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:34:21,621 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:34:21,621 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:34:21,621 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:34:21,621 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:34:21,621 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:34:47,105 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:34:47,105 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:34:47,105 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:34:47,105 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:34:47,105 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:34:47,105 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:34:47,105 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:34:47,156 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:34:47,156 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:34:47,156 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:34:47,156 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:34:47,156 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:34:47,156 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:34:47,156 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Generated 10 KNN-based recommendations for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:34:47,172 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:39:04,213 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:39:04,213 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:39:04,213 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:39:04,213 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:39:04,213 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:39:04,213 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:39:04,213 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:39:09,544 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:39:09,544 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:39:09,544 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:39:09,544 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:39:09,544 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:39:09,544 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:39:09,544 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:43:22,624 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:43:22,624 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:43:22,624 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:43:22,624 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:43:22,624 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:43:22,624 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:43:22,624 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:43:25,210 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:43:25,210 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:43:25,210 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:43:25,210 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:43:25,210 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:43:25,210 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:43:25,210 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:45:17,506 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:45:17,506 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:45:17,506 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:45:17,506 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:45:17,506 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:45:17,506 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:45:17,506 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:45:17,557 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:45:17,557 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:45:17,557 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:45:17,557 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:45:17,557 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:45:17,557 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:45:17,557 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:45:17,590 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:45:17,590 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:45:17,590 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:45:17,590 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:45:17,590 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:45:17,590 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:45:17,590 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:45:17,606 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:45:17,606 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:45:17,606 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:45:17,606 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:45:17,606 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:45:17,606 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:45:17,606 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:45:17,606 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:45:17,606 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:45:17,606 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:45:17,606 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:45:17,606 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:45:17,606 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:45:17,606 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:45:17,606 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:45:17,606 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:45:17,606 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:45:17,606 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:45:17,606 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:45:17,606 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:45:17,606 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:46:40,733 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:46:40,733 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:46:40,733 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:46:40,733 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:46:40,733 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:46:40,733 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:46:40,733 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:46:44,696 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:46:44,696 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:46:44,696 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:46:44,696 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:46:44,696 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:46:44,696 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:46:44,696 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:46:59,971 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:46:59,971 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:46:59,971 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:46:59,971 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:46:59,971 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:46:59,971 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:46:59,971 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:48:16,989 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:48:16,989 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:48:16,989 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:48:16,989 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:48:16,989 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:48:16,989 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:48:16,989 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:49:02,368 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:49:02,368 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:49:02,368 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:49:02,368 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:49:02,368 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:49:02,368 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:49:02,368 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:49:34,565 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:49:34,565 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:49:34,565 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:49:34,565 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:49:34,565 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:49:34,565 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:49:34,565 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:49:35,092 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:49:35,092 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:49:35,092 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:49:35,092 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:49:35,092 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:49:35,092 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:49:35,092 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:49:35,092 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:49:35,092 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:49:35,092 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:49:35,092 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:49:35,092 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:49:35,092 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:49:35,092 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:49:54,234 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:49:54,234 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:49:54,234 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:49:54,234 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:49:54,234 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:49:54,234 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:49:54,234 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:49:58,612 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:49:58,612 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:49:58,612 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:49:58,612 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:49:58,612 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:49:58,612 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:49:58,612 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:50:18,340 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:50:18,340 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:50:18,340 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:50:18,340 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:50:18,340 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:50:18,340 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:50:18,340 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 21:50:44,164 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:50:44,164 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:50:44,164 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:50:44,164 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:50:44,164 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:50:44,164 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:50:44,164 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:50:44,214 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:50:44,214 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:50:44,214 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:50:44,214 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:50:44,214 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:50:44,214 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:50:44,214 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:50:44,248 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:50:44,248 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:50:44,248 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:50:44,248 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:50:44,248 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:50:44,248 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:50:44,248 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:50:44,265 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:50:44,265 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:50:44,265 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:50:44,265 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:50:44,265 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:50:44,265 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:50:44,265 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:50:44,265 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:50:44,265 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:50:44,265 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:50:44,265 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:50:44,265 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:50:44,265 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:50:44,265 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:50:44,265 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:50:44,265 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:50:44,265 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:50:44,265 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:50:44,265 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:50:44,265 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:50:44,265 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:50:52,361 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:50:52,361 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:50:52,361 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:50:52,361 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:50:52,361 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:50:52,361 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:50:52,361 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 21:50:56,310 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:50:56,310 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:50:56,310 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:50:56,310 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:50:56,310 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:50:56,310 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:50:56,310 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 21:51:17,047 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:51:17,047 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:51:17,047 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:51:17,047 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:51:17,047 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:51:17,047 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:51:17,047 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 21:51:38,159 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:51:38,159 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:51:38,159 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:51:38,159 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:51:38,159 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:51:38,159 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:51:38,159 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:51:40,038 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:51:40,038 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:51:40,038 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:51:40,038 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:51:40,038 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:51:40,038 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:51:40,038 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 21:52:11,562 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:52:11,562 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:52:11,562 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:52:11,562 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:52:11,562 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:52:11,562 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:52:11,562 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 21:52:21,080 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:52:21,080 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:52:21,080 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:52:21,080 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:52:21,080 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:52:21,080 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:52:21,080 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 21:54:51,372 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:54:51,372 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:54:51,372 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:54:51,372 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:54:51,372 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:54:51,372 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 21:54:51,372 - backend.utils.logger - ERROR - Error generating recommendations: 1 validation error for FoodRecommendation
+distance
+  Field required [type=missing, input_value={'food_id': 44196, 'name'... 0.0, 'Vitamin_C': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-10-26 22:05:35,494 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:05:35,494 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:05:35,494 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:05:35,494 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:05:35,494 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:05:35,494 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:05:35,494 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:05:53,120 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:05:53,120 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:05:53,120 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:05:53,120 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:05:53,120 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:05:53,120 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:05:53,120 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:06:18,041 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:06:18,041 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:06:18,041 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:06:18,041 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:06:18,041 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:06:18,041 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:06:18,041 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:06:18,093 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:06:18,093 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:06:18,093 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:06:18,093 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:06:18,093 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:06:18,093 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:06:18,093 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:06:18,124 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:07:43,371 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:07:43,371 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:07:43,371 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:07:43,371 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:07:43,371 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:07:43,371 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:07:43,371 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:07:45,051 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:07:45,051 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:07:45,051 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:07:45,051 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:07:45,051 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:07:45,051 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:07:45,051 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:08:03,235 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:08:03,235 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:08:03,235 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:08:03,235 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:08:03,235 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:08:03,235 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:08:03,235 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:08:27,670 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:08:27,670 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:08:27,670 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:08:27,670 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:08:27,670 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:08:27,670 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:08:27,670 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:08:27,737 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:08:27,737 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:08:27,737 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:08:27,737 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:08:27,737 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:08:27,737 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:08:27,737 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using percentage scoring
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using percentage scoring
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using percentage scoring
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using percentage scoring
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using percentage scoring
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using percentage scoring
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using percentage scoring
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:08:27,771 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:09:22,536 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 22:09:22,536 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 22:09:22,536 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 22:09:22,536 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 22:09:22,536 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 22:09:22,536 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 22:09:22,536 - backend.utils.logger - INFO - User chandan logged out
+2025-10-26 22:09:33,154 - backend.utils.logger - WARNING - Login attempt with non-existent username: krishna
+2025-10-26 22:09:33,154 - backend.utils.logger - WARNING - Login attempt with non-existent username: krishna
+2025-10-26 22:09:33,154 - backend.utils.logger - WARNING - Login attempt with non-existent username: krishna
+2025-10-26 22:09:33,154 - backend.utils.logger - WARNING - Login attempt with non-existent username: krishna
+2025-10-26 22:09:33,154 - backend.utils.logger - WARNING - Login attempt with non-existent username: krishna
+2025-10-26 22:09:33,154 - backend.utils.logger - WARNING - Login attempt with non-existent username: krishna
+2025-10-26 22:09:33,154 - backend.utils.logger - WARNING - Login attempt with non-existent username: krishna
+2025-10-26 22:09:42,235 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 22:09:42,235 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 22:09:42,235 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 22:09:42,235 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 22:09:42,235 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 22:09:42,235 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 22:09:42,235 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-10-26 22:10:39,851 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:10:39,851 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:10:39,851 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:10:39,851 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:10:39,851 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:10:39,851 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:10:39,851 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Generated 10 recommendations for user 2 using percentage scoring
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Generated 10 recommendations for user 2 using percentage scoring
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Generated 10 recommendations for user 2 using percentage scoring
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Generated 10 recommendations for user 2 using percentage scoring
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Generated 10 recommendations for user 2 using percentage scoring
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Generated 10 recommendations for user 2 using percentage scoring
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Generated 10 recommendations for user 2 using percentage scoring
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 22:10:39,883 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 22:11:21,038 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:11:21,038 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:11:21,038 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:11:21,038 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:11:21,038 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:11:21,038 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:11:21,038 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Generated 10 recommendations for user 2 using percentage scoring
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Generated 10 recommendations for user 2 using percentage scoring
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Generated 10 recommendations for user 2 using percentage scoring
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Generated 10 recommendations for user 2 using percentage scoring
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Generated 10 recommendations for user 2 using percentage scoring
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Generated 10 recommendations for user 2 using percentage scoring
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Generated 10 recommendations for user 2 using percentage scoring
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Calculated nutrient requirements for user 2
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 22:11:21,066 - backend.utils.logger - INFO - Generated 10 recommendations for user 2
+2025-10-26 22:18:37,454 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:18:37,454 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:18:37,454 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:18:37,454 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:18:37,454 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:18:37,454 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:18:37,454 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:18:47,004 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 22:18:47,004 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 22:18:47,004 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 22:18:47,004 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 22:18:47,004 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 22:18:47,004 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 22:18:47,004 - backend.utils.logger - INFO - User Krishna logged out
+2025-10-26 22:18:58,975 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:18:58,975 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:18:58,975 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:18:58,975 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:18:58,975 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:18:58,975 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:18:58,975 - backend.utils.logger - INFO - User chandan logged in successfully
+2025-10-26 22:19:24,002 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:19:24,002 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:19:24,002 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:19:24,002 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:19:24,002 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:19:24,002 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:19:24,002 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:19:24,037 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:19:24,037 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:19:24,037 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:19:24,037 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:19:24,037 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:19:24,037 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:19:24,037 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using cosine scoring
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using cosine scoring
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using cosine scoring
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using cosine scoring
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using cosine scoring
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using cosine scoring
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using cosine scoring
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:19:24,070 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:23:17,659 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:23:17,659 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:23:17,659 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:23:17,659 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:23:17,659 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:23:17,659 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:23:17,659 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:23:19,700 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:23:19,700 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:23:19,700 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:23:19,700 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:23:19,700 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:23:19,700 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:23:19,700 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:23:47,915 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:23:47,915 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:23:47,915 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:23:47,915 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:23:47,915 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:23:47,915 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:23:47,915 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:23:47,963 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:23:47,963 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:23:47,963 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:23:47,963 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:23:47,963 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:23:47,963 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:23:47,963 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using hybrid scoring
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:23:47,998 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:26:22,580 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:26:22,580 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:26:22,580 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:26:22,580 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:26:22,580 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:26:22,580 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:26:22,580 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:26:46,159 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:26:46,159 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:26:46,159 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:26:46,159 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:26:46,159 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:26:46,159 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:26:46,159 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:26:46,209 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:26:46,209 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:26:46,209 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:26:46,209 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:26:46,209 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:26:46,209 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:26:46,209 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using percentage scoring
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using percentage scoring
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using percentage scoring
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using percentage scoring
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using percentage scoring
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using percentage scoring
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Generated 10 recommendations for user 3 using percentage scoring
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:26:46,242 - backend.utils.logger - INFO - Generated 10 recommendations for user 3
+2025-10-26 22:28:05,907 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:28:05,907 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:28:05,907 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:28:05,907 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:28:05,907 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:28:05,907 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:28:05,907 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:28:10,062 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:28:10,062 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:28:10,062 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:28:10,062 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:28:10,062 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:28:10,062 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:28:10,062 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-10-26 22:28:55,706 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:28:55,706 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:28:55,706 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:28:55,706 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:28:55,706 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:28:55,706 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:28:55,706 - backend.utils.logger - INFO - Loaded 20801 food items
+2025-10-26 22:29:02,554 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:29:02,554 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:29:02,554 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:29:02,554 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:29:02,554 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:29:02,554 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:29:02,554 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:30:01,025 - backend.utils.logger - INFO - Generated 100 recommendations for user 3 using percentage scoring
+2025-10-26 22:30:01,025 - backend.utils.logger - INFO - Generated 100 recommendations for user 3 using percentage scoring
+2025-10-26 22:30:01,025 - backend.utils.logger - INFO - Generated 100 recommendations for user 3 using percentage scoring
+2025-10-26 22:30:01,025 - backend.utils.logger - INFO - Generated 100 recommendations for user 3 using percentage scoring
+2025-10-26 22:30:01,025 - backend.utils.logger - INFO - Generated 100 recommendations for user 3 using percentage scoring
+2025-10-26 22:30:01,025 - backend.utils.logger - INFO - Generated 100 recommendations for user 3 using percentage scoring
+2025-10-26 22:30:01,025 - backend.utils.logger - INFO - Generated 100 recommendations for user 3 using percentage scoring
+2025-10-26 22:30:01,028 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:30:01,028 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:30:01,028 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:30:01,028 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:30:01,028 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:30:01,028 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:30:01,028 - backend.utils.logger - INFO - Calculated nutrient requirements for user 3
+2025-10-26 22:30:01,028 - backend.utils.logger - INFO - Generated 100 recommendations for user 3
+2025-10-26 22:30:01,028 - backend.utils.logger - INFO - Generated 100 recommendations for user 3
+2025-10-26 22:30:01,028 - backend.utils.logger - INFO - Generated 100 recommendations for user 3
+2025-10-26 22:30:01,028 - backend.utils.logger - INFO - Generated 100 recommendations for user 3
+2025-10-26 22:30:01,028 - backend.utils.logger - INFO - Generated 100 recommendations for user 3
+2025-10-26 22:30:01,028 - backend.utils.logger - INFO - Generated 100 recommendations for user 3
+2025-10-26 22:30:01,028 - backend.utils.logger - INFO - Generated 100 recommendations for user 3
+2025-10-26 22:34:59,792 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:34:59,792 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:34:59,792 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:34:59,792 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:34:59,792 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:34:59,792 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-10-26 22:34:59,792 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 02:02:11,651 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:02:11,651 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:02:11,651 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:02:11,651 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:02:11,651 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:02:11,651 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:02:11,651 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:02:58,052 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 02:02:58,052 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 02:02:58,052 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 02:02:58,052 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 02:02:58,052 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 02:02:58,052 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 02:02:58,052 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 02:09:52,006 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:09:52,006 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:09:52,006 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:09:52,006 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:09:52,006 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:09:52,006 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:09:52,006 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:10:22,566 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 02:10:22,566 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 02:10:22,566 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 02:10:22,566 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 02:10:22,566 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 02:10:22,566 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 02:10:22,566 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 02:12:34,316 - backend.utils.logger - INFO - User krishna logged out
+2025-11-05 02:12:34,316 - backend.utils.logger - INFO - User krishna logged out
+2025-11-05 02:12:34,316 - backend.utils.logger - INFO - User krishna logged out
+2025-11-05 02:12:34,316 - backend.utils.logger - INFO - User krishna logged out
+2025-11-05 02:12:34,316 - backend.utils.logger - INFO - User krishna logged out
+2025-11-05 02:12:34,316 - backend.utils.logger - INFO - User krishna logged out
+2025-11-05 02:12:34,316 - backend.utils.logger - INFO - User krishna logged out

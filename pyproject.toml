@@ -1,0 +1,24 @@
+[project]
+name = "food-recomendation-system-v1-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bcrypt==4.1.2",
+    "fastapi==0.109.0",
+    "numpy==1.26.3",
+    "pandas==2.1.4",
+    "passlib==1.7.4",
+    "psycopg2-binary==2.9.9",
+    "pydantic==2.5.3",
+    "pydantic-settings==2.1.0",
+    "python-dotenv==1.0.0",
+    "python-jose[cryptography]==3.3.0",
+    "python-multipart==0.0.6",
+    "requests==2.31.0",
+    "scikit-learn==1.4.0",
+    "sqlalchemy==2.0.25",
+    "streamlit==1.30.0",
+    "uvicorn==0.27.0",
+]
