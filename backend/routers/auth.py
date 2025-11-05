@@ -68,10 +68,13 @@ def login(request: LoginRequest, db: Session = Depends(get_db)):
     except HTTPException:
         raise
     except Exception as ex:
+        import traceback
+        error_trace = traceback.format_exc()
         LOGGER.error(f"Login failed: {str(ex)}")
+        LOGGER.error(f"Traceback: {error_trace}")
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail="Login failed"
+            detail=f"Login failed: {str(ex)}"
         )
 
 

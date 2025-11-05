@@ -5,8 +5,8 @@ print("\nChecking for data files...")
 print("-" * 60)
 
 files_to_check = [
-    'data/health_condition.csv',
-    'data/Foods_nutrition.csv'
+    'data/Health_Condition.csv',  # Static table for health conditions
+    'data/Food_nutrition.csv'
 ]
 
 for file_path in files_to_check:

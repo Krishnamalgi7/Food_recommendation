@@ -177,20 +177,22 @@ def display_recommendations(food_type=None, tab_name=""):
                                     ncol1, ncol2 = st.columns(2)
 
                                     with ncol1:
+                                        # Show only nutrients available in the dataset
+                                        if nutrients.get('Calories'):
+                                            st.text(f"Calories: {nutrients.get('Calories', 0):.2f} kcal")
                                         st.text(f"Protein: {nutrients.get('Protein', 0):.2f}g")
                                         st.text(f"Carbs: {nutrients.get('Carbohydrates', 0):.2f}g")
                                         st.text(f"Fats: {nutrients.get('Fats', 0):.2f}g")
                                         st.text(f"Fiber: {nutrients.get('Fiber', 0):.2f}g")
-                                        st.text(f"Calcium: {nutrients.get('Calcium', 0):.2f}g")
-                                        st.text(f"Iron: {nutrients.get('Iron', 0):.2f}g")
+                                        if nutrients.get('Saturated_Fat'):
+                                            st.text(f"Saturated Fat: {nutrients.get('Saturated_Fat', 0):.2f}g")
 
                                     with ncol2:
-                                        st.text(f"Magnesium: {nutrients.get('Magnesium', 0):.2f}g")
-                                        st.text(f"Potassium: {nutrients.get('Potassium', 0):.2f}g")
                                         st.text(f"Sodium: {nutrients.get('Sodium', 0):.2f}g")
-                                        st.text(f"Vit A: {nutrients.get('Vitamin_A', 0):.4f}g")
-                                        st.text(f"Vit B12: {nutrients.get('Vitamin_B12', 0):.4f}g")
-                                        st.text(f"Vit C: {nutrients.get('Vitamin_C', 0):.4f}g")
+                                        if nutrients.get('Cholesterol'):
+                                            st.text(f"Cholesterol: {nutrients.get('Cholesterol', 0):.2f}g")
+                                        if nutrients.get('Sugar'):
+                                            st.text(f"Sugar: {nutrients.get('Sugar', 0):.2f}g")
 
             else:
                 # Table view

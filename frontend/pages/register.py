@@ -154,7 +154,7 @@ with st.form("registration_form"):
                     import time
 
                     time.sleep(2)
-                    st.switch_page("pages/2_Login.py")
+                    st.switch_page("pages/login.py")
 
                 except Exception as ex:
                     error_msg = str(ex)

@@ -13,7 +13,7 @@ st.set_page_config(page_title="Logout", page_icon="🚪", layout="centered")
 if not st.session_state.get('logged_in'):
     st.info("You are not logged in")
     time.sleep(1)
-    st.switch_page("pages/2_Login.py")
+    st.switch_page("pages/login.py")
     st.stop()
 
 st.title("🚪 Logout")

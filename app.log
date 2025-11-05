@@ -1911,3 +1911,459 @@ distance
 2025-11-05 02:12:34,316 - backend.utils.logger - INFO - User krishna logged out
 2025-11-05 02:12:34,316 - backend.utils.logger - INFO - User krishna logged out
 2025-11-05 02:12:34,316 - backend.utils.logger - INFO - User krishna logged out
+2025-11-05 02:41:35,238 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:41:35,238 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:41:35,238 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:41:35,238 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:41:35,238 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:41:35,238 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:41:35,238 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:41:35,238 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:42:10,415 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 02:42:10,415 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 02:42:10,415 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 02:42:10,415 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 02:42:10,415 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 02:42:10,415 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 02:42:10,415 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 02:42:10,415 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 02:42:44,299 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:42:44,299 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:42:44,299 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:42:44,299 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:42:44,299 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:42:44,299 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:42:44,299 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:42:44,299 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:43:00,090 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 02:43:00,090 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 02:43:00,090 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 02:43:00,090 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 02:43:00,090 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 02:43:00,090 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 02:43:00,090 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 02:43:00,090 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 02:43:39,171 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:43:39,171 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:43:39,171 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:43:39,171 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:43:39,171 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:43:39,171 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:43:39,171 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:43:39,171 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:44:22,359 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:44:22,359 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:44:22,359 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:44:22,359 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:44:22,359 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:44:22,359 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:44:22,359 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 02:44:22,359 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:46:16,528 - backend.utils.logger - INFO - Creating database tables...
+2025-11-05 23:46:16,875 - backend.utils.logger - INFO - Created tables: users, health_conditions, foods, user_condition_associations, user_foods
+2025-11-05 23:47:19,493 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:47:19,493 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:47:19,493 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:47:19,493 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:47:19,493 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:47:19,493 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:47:19,493 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:47:47,761 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-11-05 23:47:47,761 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-11-05 23:47:47,761 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-11-05 23:47:47,761 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-11-05 23:47:47,761 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-11-05 23:47:47,761 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-11-05 23:47:47,761 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-11-05 23:48:47,937 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-11-05 23:48:47,937 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-11-05 23:48:47,937 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-11-05 23:48:47,937 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-11-05 23:48:47,937 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-11-05 23:48:47,937 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-11-05 23:48:47,937 - backend.utils.logger - INFO - Retrieved 9 health conditions
+2025-11-05 23:48:50,306 - backend.utils.logger - INFO - User 'krishna' created with condition ID: 3
+2025-11-05 23:48:50,306 - backend.utils.logger - INFO - User 'krishna' created with condition ID: 3
+2025-11-05 23:48:50,306 - backend.utils.logger - INFO - User 'krishna' created with condition ID: 3
+2025-11-05 23:48:50,306 - backend.utils.logger - INFO - User 'krishna' created with condition ID: 3
+2025-11-05 23:48:50,306 - backend.utils.logger - INFO - User 'krishna' created with condition ID: 3
+2025-11-05 23:48:50,306 - backend.utils.logger - INFO - User 'krishna' created with condition ID: 3
+2025-11-05 23:48:50,306 - backend.utils.logger - INFO - User 'krishna' created with condition ID: 3
+2025-11-05 23:50:19,682 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:50:19,682 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:50:19,682 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:50:19,682 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:50:19,682 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:50:19,682 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:50:19,682 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:50:19,684 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 23:50:19,684 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 23:50:19,684 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 23:50:19,684 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 23:50:19,684 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 23:50:19,684 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 23:50:19,684 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-05 23:50:25,837 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:50:25,837 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:50:25,837 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:50:25,837 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:50:25,837 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:50:25,837 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:50:25,837 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:53:02,875 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:53:02,875 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:53:02,875 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:53:02,875 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:53:02,875 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:53:02,875 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:53:02,875 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:53:36,393 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 23:53:36,393 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 23:53:36,393 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 23:53:36,393 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 23:53:36,393 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 23:53:36,393 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 23:53:36,393 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-05 23:54:37,312 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-05 23:54:37,312 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-05 23:54:37,312 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-05 23:54:37,312 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-05 23:54:37,312 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-05 23:54:37,312 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-05 23:54:37,312 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-05 23:54:37,315 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-05 23:54:37,315 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-05 23:54:37,315 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-05 23:54:37,315 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-05 23:54:37,315 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-05 23:54:37,315 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-05 23:54:37,315 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-05 23:54:37,360 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-05 23:54:37,360 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-05 23:54:37,360 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-05 23:54:37,360 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-05 23:54:37,360 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-05 23:54:37,360 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-05 23:54:37,360 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-05 23:54:37,363 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-05 23:54:37,363 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-05 23:54:37,363 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-05 23:54:37,363 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-05 23:54:37,363 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-05 23:54:37,363 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-05 23:54:37,363 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-05 23:54:37,363 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-05 23:54:37,363 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-05 23:54:37,363 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-05 23:54:37,363 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-05 23:54:37,363 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-05 23:54:37,363 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-05 23:54:37,363 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-05 23:59:36,161 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:59:36,161 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:59:36,161 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:59:36,161 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:59:36,161 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:59:36,161 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-05 23:59:36,161 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:00:13,679 - backend.utils.logger - ERROR - Login failed: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2025-11-06 00:00:13,679 - backend.utils.logger - ERROR - Login failed: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2025-11-06 00:00:13,679 - backend.utils.logger - ERROR - Login failed: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2025-11-06 00:00:13,679 - backend.utils.logger - ERROR - Login failed: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2025-11-06 00:00:13,679 - backend.utils.logger - ERROR - Login failed: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2025-11-06 00:00:13,679 - backend.utils.logger - ERROR - Login failed: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2025-11-06 00:00:13,679 - backend.utils.logger - ERROR - Login failed: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2025-11-06 00:05:26,218 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:05:26,218 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:05:26,218 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:05:26,218 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:05:26,218 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:05:26,218 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:05:26,218 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:05:38,373 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:05:38,373 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:05:38,373 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:05:38,373 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:05:38,373 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:05:38,373 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:05:38,373 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:05:57,853 - backend.utils.logger - ERROR - Login failed: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2025-11-06 00:05:57,853 - backend.utils.logger - ERROR - Login failed: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2025-11-06 00:05:57,853 - backend.utils.logger - ERROR - Login failed: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2025-11-06 00:05:57,853 - backend.utils.logger - ERROR - Login failed: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2025-11-06 00:05:57,853 - backend.utils.logger - ERROR - Login failed: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2025-11-06 00:05:57,853 - backend.utils.logger - ERROR - Login failed: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2025-11-06 00:05:57,853 - backend.utils.logger - ERROR - Login failed: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2025-11-06 00:05:57,853 - backend.utils.logger - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\backend\routers\auth.py", line 43, in login
+    if not verify_password(request.password, user.password):
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\backend\utils\auth.py", line 27, in verify_password
+    return pwd_context.verify(plain_password, hashed_password)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\context.py", line 2347, in verify
+    return record.verify(secret, hash, **kwds)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 792, in verify
+    return consteq(self._calc_checksum(secret), chk)
+                   ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 591, in _calc_checksum
+    self._stub_requires_backend()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2254, in _stub_requires_backend
+    cls.set_backend()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2156, in set_backend
+    return owner.set_backend(name, dryrun=dryrun)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2176, in set_backend
+    raise default_error
+passlib.exc.MissingBackendError: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+
+2025-11-06 00:05:57,853 - backend.utils.logger - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\backend\routers\auth.py", line 43, in login
+    if not verify_password(request.password, user.password):
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\backend\utils\auth.py", line 27, in verify_password
+    return pwd_context.verify(plain_password, hashed_password)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\context.py", line 2347, in verify
+    return record.verify(secret, hash, **kwds)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 792, in verify
+    return consteq(self._calc_checksum(secret), chk)
+                   ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 591, in _calc_checksum
+    self._stub_requires_backend()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2254, in _stub_requires_backend
+    cls.set_backend()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2156, in set_backend
+    return owner.set_backend(name, dryrun=dryrun)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2176, in set_backend
+    raise default_error
+passlib.exc.MissingBackendError: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+
+2025-11-06 00:05:57,853 - backend.utils.logger - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\backend\routers\auth.py", line 43, in login
+    if not verify_password(request.password, user.password):
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\backend\utils\auth.py", line 27, in verify_password
+    return pwd_context.verify(plain_password, hashed_password)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\context.py", line 2347, in verify
+    return record.verify(secret, hash, **kwds)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 792, in verify
+    return consteq(self._calc_checksum(secret), chk)
+                   ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 591, in _calc_checksum
+    self._stub_requires_backend()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2254, in _stub_requires_backend
+    cls.set_backend()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2156, in set_backend
+    return owner.set_backend(name, dryrun=dryrun)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2176, in set_backend
+    raise default_error
+passlib.exc.MissingBackendError: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+
+2025-11-06 00:05:57,853 - backend.utils.logger - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\backend\routers\auth.py", line 43, in login
+    if not verify_password(request.password, user.password):
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\backend\utils\auth.py", line 27, in verify_password
+    return pwd_context.verify(plain_password, hashed_password)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\context.py", line 2347, in verify
+    return record.verify(secret, hash, **kwds)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 792, in verify
+    return consteq(self._calc_checksum(secret), chk)
+                   ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 591, in _calc_checksum
+    self._stub_requires_backend()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2254, in _stub_requires_backend
+    cls.set_backend()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2156, in set_backend
+    return owner.set_backend(name, dryrun=dryrun)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2176, in set_backend
+    raise default_error
+passlib.exc.MissingBackendError: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+
+2025-11-06 00:05:57,853 - backend.utils.logger - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\backend\routers\auth.py", line 43, in login
+    if not verify_password(request.password, user.password):
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\backend\utils\auth.py", line 27, in verify_password
+    return pwd_context.verify(plain_password, hashed_password)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\context.py", line 2347, in verify
+    return record.verify(secret, hash, **kwds)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 792, in verify
+    return consteq(self._calc_checksum(secret), chk)
+                   ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 591, in _calc_checksum
+    self._stub_requires_backend()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2254, in _stub_requires_backend
+    cls.set_backend()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2156, in set_backend
+    return owner.set_backend(name, dryrun=dryrun)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2176, in set_backend
+    raise default_error
+passlib.exc.MissingBackendError: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+
+2025-11-06 00:05:57,853 - backend.utils.logger - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\backend\routers\auth.py", line 43, in login
+    if not verify_password(request.password, user.password):
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\backend\utils\auth.py", line 27, in verify_password
+    return pwd_context.verify(plain_password, hashed_password)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\context.py", line 2347, in verify
+    return record.verify(secret, hash, **kwds)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 792, in verify
+    return consteq(self._calc_checksum(secret), chk)
+                   ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 591, in _calc_checksum
+    self._stub_requires_backend()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2254, in _stub_requires_backend
+    cls.set_backend()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2156, in set_backend
+    return owner.set_backend(name, dryrun=dryrun)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2176, in set_backend
+    raise default_error
+passlib.exc.MissingBackendError: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+
+2025-11-06 00:05:57,853 - backend.utils.logger - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\backend\routers\auth.py", line 43, in login
+    if not verify_password(request.password, user.password):
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\backend\utils\auth.py", line 27, in verify_password
+    return pwd_context.verify(plain_password, hashed_password)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\context.py", line 2347, in verify
+    return record.verify(secret, hash, **kwds)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 792, in verify
+    return consteq(self._calc_checksum(secret), chk)
+                   ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 591, in _calc_checksum
+    self._stub_requires_backend()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2254, in _stub_requires_backend
+    cls.set_backend()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2156, in set_backend
+    return owner.set_backend(name, dryrun=dryrun)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\food-recomendation-system-v1.2\.venv\Lib\site-packages\passlib\utils\handlers.py", line 2176, in set_backend
+    raise default_error
+passlib.exc.MissingBackendError: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+
+2025-11-06 00:07:34,642 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:07:34,642 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:07:34,642 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:07:34,642 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:07:34,642 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:07:34,642 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:07:34,642 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:27:42,793 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:27:42,793 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:27:42,793 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:27:42,793 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:27:42,793 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:27:42,793 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:27:42,793 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:28:11,502 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:28:11,502 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:28:11,502 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:28:11,502 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:28:11,502 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:28:11,502 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:28:11,502 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:28:59,665 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:28:59,665 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:28:59,665 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:28:59,665 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:28:59,665 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:28:59,665 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:28:59,665 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:28:59,673 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:28:59,673 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:28:59,673 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:28:59,673 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:28:59,673 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:28:59,673 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:28:59,673 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:28:59,727 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:28:59,727 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:28:59,727 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:28:59,727 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:28:59,727 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:28:59,727 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:28:59,727 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:28:59,730 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:28:59,730 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:28:59,730 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:28:59,730 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:28:59,730 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:28:59,730 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:28:59,730 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:28:59,730 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:28:59,730 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:28:59,730 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:28:59,730 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:28:59,730 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:28:59,730 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:28:59,730 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:29:54,631 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:29:54,631 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:29:54,631 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:29:54,631 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:29:54,631 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:29:54,631 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:29:54,631 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:30:04,796 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:30:04,796 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:30:04,796 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:30:04,796 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:30:04,796 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:30:04,796 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:30:04,796 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:31:29,320 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:31:29,320 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:31:29,320 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:31:29,320 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:31:29,320 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:31:29,320 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:31:29,320 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:31:52,508 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:31:52,508 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:31:52,508 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:31:52,508 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:31:52,508 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:31:52,508 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:31:52,508 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:33:44,532 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:33:44,532 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:33:44,532 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:33:44,532 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:33:44,532 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:33:44,532 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:33:44,532 - backend.utils.logger - INFO - Food Recommendation System shutting down

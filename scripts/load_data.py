@@ -25,9 +25,67 @@ from backend.utils.logger import CustomLogger
 LOGGER = CustomLogger()
 
 
+def parse_nutrients_from_row(row):
+    """
+    Parse nutrients from CSV row with direct nutrient columns
+    Maps new dataset columns to expected nutrient names
+    """
+    nutrients = {}
+    
+    # Map new CSV columns to expected nutrient names
+    # Note: New dataset has: Fat, Carbohydrate, Fiber, Protein, Sodium, etc.
+    # Expected format: Fats, Carbohydrates, Fiber, Protein, Sodium, etc.
+    
+    # Direct mappings
+    column_mapping = {
+        'Fat': 'Fats',
+        'Carbohydrate': 'Carbohydrates',
+        'Fiber': 'Fiber',
+        'Protein': 'Protein',
+        'Sodium': 'Sodium',
+        'Sugar': 'Sugar',  # Not in expected format, but we'll store it
+        'Cholesterol': 'Cholesterol',  # Not in expected format, but we'll store it
+        'Saturated Fat': 'Saturated_Fat',  # Not in expected format, but we'll store it
+        'Calories': 'Calories'  # Store calories from dataset
+    }
+    
+    for csv_col, nutrient_name in column_mapping.items():
+        if csv_col in row:
+            try:
+                value = float(row[csv_col]) if pd.notna(row[csv_col]) else 0.0
+                nutrients[nutrient_name] = value
+            except (ValueError, TypeError):
+                nutrients[nutrient_name] = 0.0
+    
+    # Set missing nutrients to 0.0 (required by system)
+    # Expected nutrients: Calcium, Carbohydrates, Fats, Fiber, Iron, Magnesium, 
+    # Potassium, Protein, Sodium, Vitamin_A, Vitamin_B12, Vitamin_C
+    expected_nutrients = {
+        'Calcium': 0.0,
+        'Carbohydrates': nutrients.get('Carbohydrates', 0.0),
+        'Fats': nutrients.get('Fats', 0.0),
+        'Fiber': nutrients.get('Fiber', 0.0),
+        'Iron': 0.0,
+        'Magnesium': 0.0,
+        'Potassium': 0.0,
+        'Protein': nutrients.get('Protein', 0.0),
+        'Sodium': nutrients.get('Sodium', 0.0),
+        'Vitamin_A': 0.0,
+        'Vitamin_B12': 0.0,
+        'Vitamin_C': 0.0
+    }
+    
+    # Merge with any additional nutrients from the dataset
+    for key, value in nutrients.items():
+        if key not in expected_nutrients:
+            expected_nutrients[key] = value
+    
+    return expected_nutrients
+
+
 def parse_nutrients(nutrients_value):
     """
-    Safely parse nutrients from various formats
+    Safely parse nutrients from various formats (legacy support for JSON format)
     Returns a dict or empty dict if parsing fails
     """
     # Handle None/NaN
@@ -91,21 +149,24 @@ def get_default_nutrients():
 
 
 def load_health_conditions(db: Session):
-    """Load health conditions from CSV"""
+    """Load health conditions from Health_Condition.csv (static table)"""
     try:
-        csv_path = os.path.join(PROJECT_ROOT, 'data', 'normalized_health_conditions.csv')
+        # Use Health_Condition.csv as the primary static table for health conditions
+        csv_path = os.path.join(PROJECT_ROOT, 'data', 'Health_Condition.csv')
 
         print(f"📁 Looking for: {csv_path}")
 
         if not os.path.exists(csv_path):
             print(f"\n❌ FILE NOT FOUND: {csv_path}")
+            print(f"   Health_Condition.csv is required as the static table for health conditions.")
             return False
 
-        print(f"✅ Found file!")
+        print(f"✅ Found Health_Condition.csv (static table for health conditions)")
 
         # Read CSV with error handling
         df = pd.read_csv(csv_path, na_values=['', 'NA', 'null', 'None'])
         print(f"✅ Loaded CSV: {len(df)} rows, {len(df.columns)} columns")
+        print(f"   Columns: {list(df.columns)}")
 
         # Check if already loaded
         existing_count = db.query(HealthCondition).count()
@@ -113,44 +174,30 @@ def load_health_conditions(db: Session):
             print(f"ℹ️  Health conditions already loaded ({existing_count} records). Skipping...")
             return True
 
-        print(f"\n📊 Inserting {len(df)} health conditions...")
+        print(f"\n📊 Inserting {len(df)} health conditions from Health_Condition.csv...")
 
         success_count = 0
         error_count = 0
 
         for idx, row in df.iterrows():
             try:
-                # condition = HealthCondition(
-                #     name=str(row['Disease']),
-                #     description=f"Dietary requirements for {row['Disease']}",
-                #     calcium_grm=float(row['Calcium']) if pd.notna(row['Calcium']) else 0.0,
-                #     carbohydrates_grm=float(row['Carbohydrates']) if pd.notna(row['Carbohydrates']) else 0.0,
-                #     fats_grm=float(row['Fats']) if pd.notna(row['Fats']) else 0.0,
-                #     fiber_grm=float(row['Fiber']) if pd.notna(row['Fiber']) else 0.0,
-                #     iron_grm=float(row['Iron']) if pd.notna(row['Iron']) else 0.0,
-                #     magnesium_grm=float(row['Magnesium']) if pd.notna(row['Magnesium']) else 0.0,
-                #     potassium_grm=float(row['Potassium']) if pd.notna(row['Potassium']) else 0.0,
-                #     protein_grm=float(row['Protein']) if pd.notna(row['Protein']) else 0.0,
-                #     sodium_grm=float(row['Sodium']) if pd.notna(row['Sodium']) else 0.0,
-                #     vitamin_a_grm=float(row['Vitamin_A']) if pd.notna(row['Vitamin_A']) else 0.0,
-                #     vitamin_b12_grm=float(row['Vitamin_B12']) if pd.notna(row['Vitamin_B12']) else 0.0,
-                #     vitamin_c_grm=float(row['Vitamin_C']) if pd.notna(row['Vitamin_C']) else 0.0
-                # )
+                # Health_Condition.csv format: Disease, Calories, Fat, Saturated Fat, 
+                # Cholesterol, Sodium, Carbohydrate, Fiber, Sugar, Protein
                 condition = HealthCondition(
                     name=str(row['Disease']),
                     description=f"Dietary requirements for {row['Disease']}",
-                    calcium_grm=0.0,
-                    carbohydrates_grm=0.0,
-                    fats_grm=float(row['Fats']) if pd.notna(row['Fats']) else 0.0,
-                    fiber_grm=float(row['Fiber']) if pd.notna(row['Fiber']) else 0.0,
-                    iron_grm=0.0,
-                    magnesium_grm=0.0,
-                    potassium_grm=0.0,
-                    protein_grm=float(row['Protein']) if pd.notna(row['Protein']) else 0.0,
-                    sodium_grm=0.0,
-                    vitamin_a_grm= 0.0,
-                    vitamin_b12_grm= 0.0,
-                    vitamin_c_grm=0.0
+                    calcium_grm=0.0,  # Not in dataset
+                    carbohydrates_grm=float(row['Carbohydrate']) if pd.notna(row.get('Carbohydrate')) else 0.0,
+                    fats_grm=float(row['Fat']) if pd.notna(row.get('Fat')) else 0.0,
+                    fiber_grm=float(row['Fiber']) if pd.notna(row.get('Fiber')) else 0.0,
+                    iron_grm=0.0,  # Not in dataset
+                    magnesium_grm=0.0,  # Not in dataset
+                    potassium_grm=0.0,  # Not in dataset
+                    protein_grm=float(row['Protein']) if pd.notna(row.get('Protein')) else 0.0,
+                    sodium_grm=float(row['Sodium']) if pd.notna(row.get('Sodium')) else 0.0,
+                    vitamin_a_grm=0.0,  # Not in dataset
+                    vitamin_b12_grm=0.0,  # Not in dataset
+                    vitamin_c_grm=0.0  # Not in dataset
                 )
                 db.add(condition)
                 success_count += 1
@@ -164,7 +211,7 @@ def load_health_conditions(db: Session):
         db.commit()
 
         final_count = db.query(HealthCondition).count()
-        print(f"\n✅ Successfully loaded {final_count} health conditions!")
+        print(f"\n✅ Successfully loaded {final_count} health conditions from Health_Condition.csv!")
         if error_count > 0:
             print(f"⚠️  Skipped {error_count} rows due to errors")
 
@@ -181,7 +228,8 @@ def load_health_conditions(db: Session):
 def load_foods(db: Session, batch_size: int = 500):
     """Load foods from CSV with robust error handling"""
     try:
-        csv_path = os.path.join(PROJECT_ROOT, 'data', 'Foods_nutrition.csv')
+        # Updated to use new dataset filename
+        csv_path = os.path.join(PROJECT_ROOT, 'data', 'Food_nutrition.csv')
 
         print(f"📁 Looking for: {csv_path}")
 
@@ -214,18 +262,25 @@ def load_foods(db: Session, batch_size: int = 500):
 
             for idx, row in chunk.iterrows():
                 try:
-                    # Parse nutrients with robust error handling
-                    nutrients = parse_nutrients(row.get('nutrients'))
-
-                    # If nutrients is empty, use defaults
-                    if not nutrients:
-                        nutrients = get_default_nutrients()
+                    # Parse nutrients from direct columns (new dataset format)
+                    # Check if dataset has 'nutrients' column (old format) or direct nutrient columns (new format)
+                    if 'nutrients' in row and pd.notna(row.get('nutrients')):
+                        # Old format: JSON string in 'nutrients' column
+                        nutrients = parse_nutrients(row.get('nutrients'))
+                        if not nutrients:
+                            nutrients = get_default_nutrients()
+                    else:
+                        # New format: Direct nutrient columns
+                        nutrients = parse_nutrients_from_row(row)
+                        if not nutrients:
+                            nutrients = get_default_nutrients()
 
                     # Ensure all required fields are present
                     name = str(row['name']) if pd.notna(row.get('name')) else f"Unknown_{idx}"
                     category = str(row['category']) if pd.notna(row.get('category')) else "Uncategorized"
                     food_type = str(row['type']) if pd.notna(row.get('type')) else "Unknown"
-                    ingredients = str(row['ingredients']) if pd.notna(row.get('ingredients')) else ""
+                    # New dataset doesn't have 'ingredients' column, so set empty string
+                    ingredients = str(row['ingredients']) if pd.notna(row.get('ingredients')) and 'ingredients' in row else ""
 
                     # Handle price
                     try:

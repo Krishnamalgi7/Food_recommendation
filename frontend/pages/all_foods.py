@@ -40,7 +40,7 @@ def format_nutrient(nutrient_val):
 if not st.session_state.get('logged_in'):
     st.warning("⚠️ Please login to view foods")
     if st.button("Go to Login"):
-        st.switch_page("pages/2_Login.py")
+        st.switch_page("pages/login.py")
     st.stop()
 
 st.title("🍽️ All Foods Catalog")
@@ -184,14 +184,23 @@ def display_foods(food_type=None, tab_name=""):
                                         st.write("**Key Nutrients:**")
                                         ncol1, ncol2 = st.columns(2)
 
-                                        # --- FIX APPLIED HERE ---
-                                        # Use the safe formatting function for all nutrients
+                                        # Show only nutrients available in the dataset
                                         with ncol1:
+                                            if nutrients.get('Calories'):
+                                                st.text(f"Calories: {format_nutrient(nutrients.get('Calories', 0))} kcal")
                                             st.text(f"Protein: {format_nutrient(nutrients.get('Protein', 0))}")
                                             st.text(f"Carbs: {format_nutrient(nutrients.get('Carbohydrates', 0))}")
-                                        with ncol2:
                                             st.text(f"Fats: {format_nutrient(nutrients.get('Fats', 0))}")
                                             st.text(f"Fiber: {format_nutrient(nutrients.get('Fiber', 0))}")
+                                            if nutrients.get('Saturated_Fat'):
+                                                st.text(f"Saturated Fat: {format_nutrient(nutrients.get('Saturated_Fat', 0))}")
+                                        
+                                        with ncol2:
+                                            st.text(f"Sodium: {format_nutrient(nutrients.get('Sodium', 0))}")
+                                            if nutrients.get('Cholesterol'):
+                                                st.text(f"Cholesterol: {format_nutrient(nutrients.get('Cholesterol', 0))}")
+                                            if nutrients.get('Sugar'):
+                                                st.text(f"Sugar: {format_nutrient(nutrients.get('Sugar', 0))}")
 
         else:
             # Table view
