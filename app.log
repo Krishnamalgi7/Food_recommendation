@@ -2367,3 +2367,304 @@ passlib.exc.MissingBackendError: bcrypt: no backends available -- recommend you 
 2025-11-06 00:33:44,532 - backend.utils.logger - INFO - Food Recommendation System shutting down
 2025-11-06 00:33:44,532 - backend.utils.logger - INFO - Food Recommendation System shutting down
 2025-11-06 00:33:44,532 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:43:11,320 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:43:11,320 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:43:11,320 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:43:11,320 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:43:11,320 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:43:11,320 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:43:11,320 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:43:52,379 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:43:52,379 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:43:52,379 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:43:52,379 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:43:52,379 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:43:52,379 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:43:52,379 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:45:13,166 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:45:13,166 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:45:13,166 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:45:13,166 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:45:13,166 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:45:13,166 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:45:13,166 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:45:22,790 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:45:22,790 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:45:22,790 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:45:22,790 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:45:22,790 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:45:22,790 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:45:22,790 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:52:35,626 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:52:35,626 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:52:35,626 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:52:35,626 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:52:35,626 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:52:35,626 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:52:35,626 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:53:03,685 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:53:03,685 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:53:03,685 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:53:03,685 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:53:03,685 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:53:03,685 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:53:03,685 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:53:23,903 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:53:23,903 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:53:23,903 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:53:23,903 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:53:23,903 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:53:23,903 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:53:23,903 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:53:23,906 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:53:23,906 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:53:23,906 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:53:23,906 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:53:23,906 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:53:23,906 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:53:23,906 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:53:23,920 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:53:23,920 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:53:23,920 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:53:23,920 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:53:23,920 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:53:23,920 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:53:23,920 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:53:23,922 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:53:23,922 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:53:23,922 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:53:23,922 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:53:23,922 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:53:23,922 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:53:23,922 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:53:23,923 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:53:23,923 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:53:23,923 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:53:23,923 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:53:23,923 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:53:23,923 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:53:23,923 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:53:23,934 - backend.utils.logger - ERROR - Error generating recommendations: 7 validation errors for FoodRecommendation
+nutrients.Calcium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Iron
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Magnesium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Potassium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_A
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_B12
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_C
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-06 00:53:23,934 - backend.utils.logger - ERROR - Error generating recommendations: 7 validation errors for FoodRecommendation
+nutrients.Calcium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Iron
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Magnesium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Potassium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_A
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_B12
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_C
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-06 00:53:23,934 - backend.utils.logger - ERROR - Error generating recommendations: 7 validation errors for FoodRecommendation
+nutrients.Calcium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Iron
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Magnesium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Potassium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_A
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_B12
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_C
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-06 00:53:23,934 - backend.utils.logger - ERROR - Error generating recommendations: 7 validation errors for FoodRecommendation
+nutrients.Calcium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Iron
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Magnesium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Potassium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_A
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_B12
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_C
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-06 00:53:23,934 - backend.utils.logger - ERROR - Error generating recommendations: 7 validation errors for FoodRecommendation
+nutrients.Calcium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Iron
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Magnesium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Potassium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_A
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_B12
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_C
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-06 00:53:23,934 - backend.utils.logger - ERROR - Error generating recommendations: 7 validation errors for FoodRecommendation
+nutrients.Calcium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Iron
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Magnesium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Potassium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_A
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_B12
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_C
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-06 00:53:23,934 - backend.utils.logger - ERROR - Error generating recommendations: 7 validation errors for FoodRecommendation
+nutrients.Calcium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Iron
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Magnesium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Potassium
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_A
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_B12
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+nutrients.Vitamin_C
+  Field required [type=missing, input_value={'Calories': 434.0, 'Carb...ol': 78.1, 'Sugar': 5.9}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-06 00:55:43,972 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:55:43,972 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:55:43,972 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:55:43,972 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:55:43,972 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:55:43,972 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:55:43,972 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:55:58,049 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:55:58,049 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:55:58,049 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:55:58,049 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:55:58,049 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:55:58,049 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:55:58,049 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-06 00:56:18,331 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:56:18,331 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:56:18,331 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:56:18,331 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:56:18,331 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:56:18,331 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:56:18,331 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-06 00:56:46,657 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:56:46,657 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:56:46,657 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:56:46,657 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:56:46,657 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:56:46,657 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:56:46,657 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-06 00:56:46,662 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:56:46,662 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:56:46,662 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:56:46,662 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:56:46,662 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:56:46,662 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:56:46,662 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:56:46,676 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:56:46,676 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:56:46,676 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:56:46,676 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:56:46,676 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:56:46,676 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:56:46,676 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-06 00:56:46,678 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:56:46,678 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:56:46,678 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:56:46,678 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:56:46,678 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:56:46,678 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:56:46,678 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-06 00:56:46,678 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:56:46,678 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:56:46,678 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:56:46,678 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:56:46,678 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:56:46,678 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:56:46,678 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-06 00:57:18,504 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:57:18,504 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:57:18,504 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:57:18,504 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:57:18,504 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:57:18,504 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:57:18,504 - backend.utils.logger - INFO - User krishna logged out
+2025-11-06 00:57:27,710 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:57:27,710 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:57:27,710 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:57:27,710 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:57:27,710 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:57:27,710 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-06 00:57:27,710 - backend.utils.logger - INFO - Food Recommendation System shutting down

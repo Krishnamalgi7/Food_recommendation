@@ -16,9 +16,8 @@ class ImprovedKNNFoodRecommender:
     """KNN-based food recommendation with proper magnitude-based scoring"""
 
     NUTRIENT_FEATURES = [
-        'Calcium', 'Carbohydrates', 'Fats', 'Fiber',
-        'Iron', 'Magnesium', 'Potassium', 'Protein',
-        'Sodium', 'Vitamin_A', 'Vitamin_B12', 'Vitamin_C'
+        'Calories', 'Carbohydrates', 'Fats', 'Fiber', 'Protein',
+        'Sodium', 'Saturated_Fat', 'Cholesterol', 'Sugar'
     ]
 
     def __init__(self):
@@ -82,18 +81,14 @@ class ImprovedKNNFoodRecommender:
                 ).first()
 
                 if condition:
-                    requirements['Calcium'] += condition.calcium_grm or 0
+                    # Only use nutrients available in the new dataset
                     requirements['Carbohydrates'] += condition.carbohydrates_grm or 0
                     requirements['Fats'] += condition.fats_grm or 0
                     requirements['Fiber'] += condition.fiber_grm or 0
-                    requirements['Iron'] += condition.iron_grm or 0
-                    requirements['Magnesium'] += condition.magnesium_grm or 0
-                    requirements['Potassium'] += condition.potassium_grm or 0
                     requirements['Protein'] += condition.protein_grm or 0
                     requirements['Sodium'] += condition.sodium_grm or 0
-                    requirements['Vitamin_A'] += condition.vitamin_a_grm or 0
-                    requirements['Vitamin_B12'] += condition.vitamin_b12_grm or 0
-                    requirements['Vitamin_C'] += condition.vitamin_c_grm or 0
+                    # Calories, Saturated_Fat, Cholesterol, Sugar are not in health conditions table
+                    # They will default to 0.0
 
             num_conditions = len(user_conditions)
             # Average across conditions
@@ -110,20 +105,17 @@ class ImprovedKNNFoodRecommender:
             return self._get_default_requirements()
 
     def _get_default_requirements(self) -> Dict[str, float]:
-        """Get default nutrient requirements"""
+        """Get default nutrient requirements based on new dataset nutrients"""
         return {
-            'Calcium': 1.0,
+            'Calories': 2000.0,  # Average daily calories
             'Carbohydrates': 275.0,
             'Fats': 70.0,
             'Fiber': 28.0,
-            'Iron': 0.018,
-            'Magnesium': 0.4,
-            'Potassium': 3.5,
             'Protein': 50.0,
             'Sodium': 2.3,
-            'Vitamin_A': 0.9,
-            'Vitamin_B12': 0.0024,
-            'Vitamin_C': 0.09
+            'Saturated_Fat': 20.0,  # Average daily saturated fat
+            'Cholesterol': 300.0,  # Average daily cholesterol
+            'Sugar': 50.0  # Average daily sugar
         }
 
     def calculate_magnitude_score(
