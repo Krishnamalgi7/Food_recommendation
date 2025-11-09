@@ -32,7 +32,7 @@ class FoodRecommendation(BaseModel):
 
 class RecommendationRequest(BaseModel):
     """Request for food recommendations"""
-    n_recommendations: int = Field(default=100, ge=1, le=500)
+    n_recommendations: int = Field(default=10, ge=10, le=50)
     category_filter: Optional[str] = None
     food_type: Optional[str] = Field(None, description="Filter by food type: Veg, Non-Veg, etc.")
 

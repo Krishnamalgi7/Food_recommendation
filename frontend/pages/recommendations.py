@@ -73,9 +73,9 @@ def display_recommendations(food_type=None, tab_name=""):
     n_recommendations = st.slider(
         "Number of recommendations",
         min_value=10,
-        max_value=200,
-        value=100,
-        step=10,
+        max_value=50,
+        value=10,
+        step=5,
         key=f"num_{food_type}"
     )
 
