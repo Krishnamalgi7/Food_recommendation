@@ -33,7 +33,8 @@ def get_all_foods_paginated(
 
         # Apply filters
         if food_type:
-            query = query.filter(custom_tables.Food.type.ilike(f"%{food_type}%"))
+            # Use exact match (case-insensitive) to avoid matching "Non-Veg" when searching "Veg"
+            query = query.filter(func.lower(custom_tables.Food.type) == food_type.lower())
 
         if category:
             query = query.filter(custom_tables.Food.category.ilike(f"%{category}%"))

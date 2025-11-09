@@ -186,6 +186,7 @@ class ImprovedKNNFoodRecommender:
             db: Session,
             n_recommendations: int = 20,
             category_filter: str = None,
+            food_type_filter: str = None,
             scoring_method: str = 'percentage'  # 'cosine', 'percentage', or 'hybrid'
     ) -> List[Dict[str, Any]]:
         """
@@ -196,6 +197,7 @@ class ImprovedKNNFoodRecommender:
             db: Database session
             n_recommendations: Number of recommendations to return
             category_filter: Optional category filter
+            food_type_filter: Optional food type filter (e.g., 'Veg', 'Non-Veg')
             scoring_method: 'cosine' (proportion-based), 'percentage' (absolute), or 'hybrid'
         """
         try:
@@ -217,8 +219,17 @@ class ImprovedKNNFoodRecommender:
                     filtered_food_data['category'].str.lower() == category_filter.lower()
                     ]
 
+            if food_type_filter:
+                # Filter by food type (exact match, case-insensitive)
+                filtered_food_data = filtered_food_data[
+                    filtered_food_data['type'].str.lower() == food_type_filter.lower()
+                    ]
+
             if filtered_food_data.empty:
-                LOGGER.warning(f"No foods found for category '{category_filter}' with required nutrients")
+                filter_msg = f"category '{category_filter}'" if category_filter else ""
+                if food_type_filter:
+                    filter_msg += f" and type '{food_type_filter}'" if filter_msg else f"type '{food_type_filter}'"
+                LOGGER.warning(f"No foods found for {filter_msg} with required nutrients")
                 return []
 
             # Step 3: Ensure nutrient columns are numeric

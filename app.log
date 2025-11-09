@@ -2668,3 +2668,108 @@ nutrients.Vitamin_C
 2025-11-06 00:57:27,710 - backend.utils.logger - INFO - Food Recommendation System shutting down
 2025-11-06 00:57:27,710 - backend.utils.logger - INFO - Food Recommendation System shutting down
 2025-11-06 00:57:27,710 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-09 09:23:15,452 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-09 09:23:15,452 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-09 09:23:15,452 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-09 09:23:15,452 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-09 09:23:15,452 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-09 09:23:15,452 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-09 09:23:15,452 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-09 09:23:39,274 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:23:39,274 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:23:39,274 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:23:39,274 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:23:39,274 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:23:39,274 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:23:39,274 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:24:25,814 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-09 09:24:25,814 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-09 09:24:25,814 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-09 09:24:25,814 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-09 09:24:25,814 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-09 09:24:25,814 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-09 09:24:25,814 - backend.utils.logger - INFO - Loaded 998 food items
+2025-11-09 09:24:25,817 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-09 09:24:25,817 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-09 09:24:25,817 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-09 09:24:25,817 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-09 09:24:25,817 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-09 09:24:25,817 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-09 09:24:25,817 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-09 09:24:25,855 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-09 09:24:25,855 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-09 09:24:25,855 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-09 09:24:25,855 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-09 09:24:25,855 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-09 09:24:25,855 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-09 09:24:25,855 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-09 09:24:25,857 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-09 09:24:25,857 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-09 09:24:25,857 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-09 09:24:25,857 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-09 09:24:25,857 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-09 09:24:25,857 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-09 09:24:25,857 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-09 09:24:25,858 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-09 09:24:25,858 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-09 09:24:25,858 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-09 09:24:25,858 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-09 09:24:25,858 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-09 09:24:25,858 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-09 09:24:25,858 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-09 09:24:50,934 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:24:50,934 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:24:50,934 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:24:50,934 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:24:50,934 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:24:50,934 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:24:50,934 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:25:06,468 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:25:06,468 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:25:06,468 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:25:06,468 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:25:06,468 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:25:06,468 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:25:06,468 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:25:26,645 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:25:26,645 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:25:26,645 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:25:26,645 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:25:26,645 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:25:26,645 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:25:26,645 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:25:38,483 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-09 09:25:38,483 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-09 09:25:38,483 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-09 09:25:38,483 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-09 09:25:38,483 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-09 09:25:38,483 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-09 09:25:38,483 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-09 09:28:22,878 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-09 09:28:22,878 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-09 09:28:22,878 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-09 09:28:22,878 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-09 09:28:22,878 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-09 09:28:22,878 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-09 09:28:22,878 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2025-11-09 09:28:48,743 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:28:48,743 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:28:48,743 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:28:48,743 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:28:48,743 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:28:48,743 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:28:48,743 - backend.utils.logger - INFO - User krishna logged in successfully
+2025-11-09 09:29:15,615 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:29:15,615 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:29:15,615 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:29:15,615 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:29:15,615 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:29:15,615 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:29:15,615 - backend.utils.logger - INFO - User krishna logged out
+2025-11-09 09:29:23,765 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-09 09:29:23,765 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-09 09:29:23,765 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-09 09:29:23,765 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-09 09:29:23,765 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-09 09:29:23,765 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-09 09:29:23,765 - backend.utils.logger - INFO - Food Recommendation System shutting down

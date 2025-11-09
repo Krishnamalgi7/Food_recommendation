@@ -134,7 +134,8 @@ def generate_recommendations(
             user_id=current_user.id,
             db=db,
             n_recommendations=request.n_recommendations,
-            category_filter=request.category_filter
+            category_filter=request.category_filter,
+            food_type_filter=request.food_type
         )
 
         nutrient_requirements = recommender.get_user_nutrient_requirements(
