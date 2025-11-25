@@ -145,7 +145,7 @@ def display_foods(food_type=None, tab_name=""):
         if f'page_{food_type}' not in st.session_state:
             st.session_state[f'page_{food_type}'] = 1
 
-        items_per_page = st.selectbox("Items per page", [20, 50, 80], index=1, key=f"limit_{food_type}")
+        items_per_page = st.selectbox("Items per page", [10, 20, 50], index=1, key=f"limit_{food_type}")
 
         col1, col2, col3 = st.columns([1, 2, 1])
         with col1:
@@ -280,3 +280,4 @@ def display_foods(food_type=None, tab_name=""):
 with main_tab1: display_foods(food_type="Veg", tab_name="Vegetarian")
 with main_tab2: display_foods(food_type="Non-Veg", tab_name="Non-Vegetarian")
 with main_tab3: display_foods(food_type=None, tab_name="All Foods")
+
