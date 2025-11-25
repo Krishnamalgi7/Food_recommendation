@@ -8,6 +8,37 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../.
 from frontend.utils.api_client import api_client
 
 st.set_page_config(page_title="Logout", page_icon="🚪", layout="centered")
+st.markdown("""
+    <style>
+    /* SIDEBAR FLOATING DRAWER SETTINGS */
+    [data-testid="stSidebarNav"] { display: none; }
+
+    section[data-testid="stSidebar"] {
+        width: 300px !important;
+        transform: translateX(-285px); /* Hidden by default */
+        transition: transform 0.3s ease-in-out;
+        position: fixed !important;
+        top: 0; left: 0; bottom: 0;
+        z-index: 99999;
+        background-color: white;
+        box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+        border-right: 3px solid #FF6B6B;
+    }
+
+    section[data-testid="stSidebar"]:hover {
+        transform: translateX(0); /* Visible on hover */
+    }
+
+    /* RED BUTTONS */
+    div.stButton > button {
+        background: linear-gradient(to right, #FF6B6B, #ee5253);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-weight: 600;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
 # Check if user is logged in
 if not st.session_state.get('logged_in'):

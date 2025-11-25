@@ -8,7 +8,37 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../.
 from frontend.utils.api_client import api_client
 
 st.set_page_config(page_title="All Foods", page_icon="🍽️", layout="wide")
+st.markdown("""
+    <style>
+    /* SIDEBAR FLOATING DRAWER SETTINGS */
+    [data-testid="stSidebarNav"] { display: none; }
 
+    section[data-testid="stSidebar"] {
+        width: 300px !important;
+        transform: translateX(-285px); /* Hidden by default */
+        transition: transform 0.3s ease-in-out;
+        position: fixed !important;
+        top: 0; left: 0; bottom: 0;
+        z-index: 99999;
+        background-color: white;
+        box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+        border-right: 3px solid #FF6B6B;
+    }
+
+    section[data-testid="stSidebar"]:hover {
+        transform: translateX(0); /* Visible on hover */
+    }
+
+    /* RED BUTTONS */
+    div.stButton > button {
+        background: linear-gradient(to right, #FF6B6B, #ee5253);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-weight: 600;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
 # --- Helper Functions to prevent formatting errors ---
 
@@ -187,18 +217,21 @@ def display_foods(food_type=None, tab_name=""):
                                         # Show only nutrients available in the dataset
                                         with ncol1:
                                             if nutrients.get('Calories'):
-                                                st.text(f"Calories: {format_nutrient(nutrients.get('Calories', 0))} kcal")
+                                                st.text(
+                                                    f"Calories: {format_nutrient(nutrients.get('Calories', 0))} kcal")
                                             st.text(f"Protein: {format_nutrient(nutrients.get('Protein', 0))}")
                                             st.text(f"Carbs: {format_nutrient(nutrients.get('Carbohydrates', 0))}")
                                             st.text(f"Fats: {format_nutrient(nutrients.get('Fats', 0))}")
                                             st.text(f"Fiber: {format_nutrient(nutrients.get('Fiber', 0))}")
                                             if nutrients.get('Saturated_Fat'):
-                                                st.text(f"Saturated Fat: {format_nutrient(nutrients.get('Saturated_Fat', 0))}")
-                                        
+                                                st.text(
+                                                    f"Saturated Fat: {format_nutrient(nutrients.get('Saturated_Fat', 0))}")
+
                                         with ncol2:
                                             st.text(f"Sodium: {format_nutrient(nutrients.get('Sodium', 0))}")
                                             if nutrients.get('Cholesterol'):
-                                                st.text(f"Cholesterol: {format_nutrient(nutrients.get('Cholesterol', 0))}")
+                                                st.text(
+                                                    f"Cholesterol: {format_nutrient(nutrients.get('Cholesterol', 0))}")
                                             if nutrients.get('Sugar'):
                                                 st.text(f"Sugar: {format_nutrient(nutrients.get('Sugar', 0))}")
 

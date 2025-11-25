@@ -8,6 +8,37 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../.
 from frontend.utils.api_client import api_client
 
 st.set_page_config(page_title="Health Conditions", page_icon="🏥", layout="wide")
+st.markdown("""
+    <style>
+    /* SIDEBAR FLOATING DRAWER SETTINGS */
+    [data-testid="stSidebarNav"] { display: none; }
+
+    section[data-testid="stSidebar"] {
+        width: 300px !important;
+        transform: translateX(-285px); /* Hidden by default */
+        transition: transform 0.3s ease-in-out;
+        position: fixed !important;
+        top: 0; left: 0; bottom: 0;
+        z-index: 99999;
+        background-color: white;
+        box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+        border-right: 3px solid #FF6B6B;
+    }
+
+    section[data-testid="stSidebar"]:hover {
+        transform: translateX(0); /* Visible on hover */
+    }
+
+    /* RED BUTTONS */
+    div.stButton > button {
+        background: linear-gradient(to right, #FF6B6B, #ee5253);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-weight: 600;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
 # Check authentication
 if not st.session_state.get('logged_in'):
@@ -58,6 +89,7 @@ st.markdown("---")
 # Selection form
 st.markdown("### 📝 Update Your Health Conditions")
 
+# --- FORM STARTS HERE ---
 with st.form("conditions_form"):
     st.write("Select all conditions that apply to you:")
 
@@ -82,39 +114,42 @@ with st.form("conditions_form"):
     st.markdown("---")
 
     # Submit button
-    col1, col2 = st.columns([1, 3])
+    col_submit, col_info = st.columns([1, 3])
 
-    with col1:
+    with col_submit:
         submitted = st.form_submit_button("💾 Save Conditions", use_container_width=True)
 
-    with col2:
+    with col_info:
         st.info("💡 Tip: You can select multiple conditions")
+# --- FORM ENDS HERE ---
 
-    if submitted:
-        if not selected_conditions:
-            st.error("❌ Please select at least one health condition")
-        else:
-            try:
-                with st.spinner("Saving your conditions..."):
-                    response = api_client.add_user_conditions(selected_conditions)
+# --- LOGIC MOVED OUTSIDE THE FORM ---
+if submitted:
+    if not selected_conditions:
+        st.error("❌ Please select at least one health condition")
+    else:
+        try:
+            with st.spinner("Saving your conditions..."):
+                response = api_client.add_user_conditions(selected_conditions)
 
-                st.success(f"✅ {response['message']}")
-                st.balloons()
+            st.success(f"✅ {response['message']}")
+            st.balloons()
 
-                # Show selected conditions
-                st.markdown("### Your Selected Conditions:")
-                for condition_id in selected_conditions:
-                    condition = next(c for c in all_conditions if c['id'] == condition_id)
-                    st.markdown(f"- **{condition['name']}**: {condition['description']}")
+            # Show selected conditions
+            st.markdown("### Your Selected Conditions:")
+            for condition_id in selected_conditions:
+                condition = next(c for c in all_conditions if c['id'] == condition_id)
+                st.markdown(f"- **{condition['name']}**: {condition['description']}")
 
-                st.info("🎯 Ready to get personalized recommendations!")
+            st.info("🎯 Ready to get personalized recommendations!")
 
-                # Option to get recommendations
-                if st.button("Get Recommendations Now"):
-                    st.switch_page("pages/recommendations.py")
+            # Option to get recommendations
+            # This is now valid because we are outside the st.form block
+            if st.button("Get Recommendations Now"):
+                st.switch_page("pages/recommendations.py")
 
-            except Exception as ex:
-                st.error(f"❌ Error saving conditions: {str(ex)}")
+        except Exception as ex:
+            st.error(f"❌ Error saving conditions: {str(ex)}")
 
 # Additional information
 st.markdown("---")

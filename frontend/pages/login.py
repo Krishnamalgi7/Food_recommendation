@@ -1,16 +1,69 @@
 import streamlit as st
 import sys
 import os
+import time
 
 # Add parent directory to path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
 from frontend.utils.api_client import api_client
 
-st.set_page_config(page_title="Login", page_icon="🔐", layout="centered",initial_sidebar_state="collapsed")
+st.set_page_config(page_title="Login", page_icon="🔐", layout="centered", initial_sidebar_state="collapsed")
 
-st.title("🔐 Welcome Back!")
-st.write("Login to access your personalized food recommendations")
+# --- CSS: NUCLEAR OPTION TO KILL SIDEBAR ---
+st.markdown("""
+    <style>
+    /* 1. REMOVE SIDEBAR COMPLETELY FROM LAYOUT */
+    section[data-testid="stSidebar"] {
+        display: none !important;
+        width: 0px !important;
+        flex: 0 !important;
+        pointer-events: none !important; /* Disables all mouse interaction */
+    }
+
+    /* 2. HIDE THE COLLAPSE/EXPAND BUTTONS */
+    div[data-testid="collapsedControl"] {
+        display: none !important;
+    }
+    button[kind="header"] {
+        display: none !important;
+    }
+    [data-testid="stSidebarNav"] {
+        display: none !important;
+    }
+
+    /* 3. CENTERED CARD STYLE */
+    .login-container {
+        background-color: white;
+        padding: 3rem;
+        border-radius: 15px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    /* 4. GENERAL STYLING */
+    .main { background-color: #f8f9fa; }
+    h1 { font-family: 'Segoe UI', sans-serif; color: #2c3e50; font-weight: 700; }
+
+    /* 5. BUTTONS */
+    div.stButton > button {
+        background: linear-gradient(to right, #FF6B6B, #ee5253);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 0.6rem 1.2rem;
+        font-weight: 600;
+        width: 100%;
+        transition: all 0.2s;
+    }
+    div.stButton > button:hover {
+        background: linear-gradient(to right, #ee5253, #ff7675);
+        box-shadow: 0 4px 8px rgba(255, 107, 107, 0.4);
+        transform: scale(1.02);
+    }
+    </style>
+""", unsafe_allow_html=True)
 
 # Check if already logged in
 if st.session_state.get('logged_in'):
@@ -18,6 +71,11 @@ if st.session_state.get('logged_in'):
     if st.button("Go to Home"):
         st.switch_page("app.py")
     st.stop()
+
+# --- MAIN UI ---
+st.markdown("<div class='login-container'>", unsafe_allow_html=True)
+st.title("🔐 Welcome Back!")
+st.write("Login to access your personalized food recommendations")
 
 # Login form
 with st.form("login_form"):
@@ -39,10 +97,7 @@ with st.form("login_form"):
     st.markdown("---")
 
     # Submit button
-    col1, col2 = st.columns([2, 1])
-
-    with col1:
-        submitted = st.form_submit_button("Login", use_container_width=True)
+    submitted = st.form_submit_button("Login", use_container_width=True)
 
     if submitted:
         if not username or not password:
@@ -62,9 +117,6 @@ with st.form("login_form"):
                 st.success(f"✅ Welcome back, {response['name']}!")
                 st.balloons()
 
-                # Redirect to home
-                import time
-
                 time.sleep(1)
                 st.switch_page("app.py")
 
@@ -76,41 +128,23 @@ with st.form("login_form"):
                     st.error("❌ Your account is inactive")
                 else:
                     st.error(f"❌ Login failed: {error_msg}")
-                    st.error("Make sure the backend server is running on http://localhost:8000")
+
+st.markdown("</div>", unsafe_allow_html=True)  # End card
 
 # Divider
-st.markdown("---")
+st.markdown("<br>", unsafe_allow_html=True)
 
-# Additional options
+# Additional options outside the card
 col1, col2 = st.columns(2)
 
 with col1:
-    st.markdown("### New User?")
     if st.button("Create Account", use_container_width=True):
         st.switch_page("pages/register.py")
 
 with col2:
-    st.markdown("### Need Help?")
-    with st.expander("Login Issues"):
+    with st.expander("Need Help?"):
         st.write("""
         **Common issues:**
-        - Make sure backend server is running
-        - Check your username and password
-        - Ensure you've registered an account
-
-        **backend not running?**
-        Start it with:
-        ```bash
-        cd backend
-        uvicorn main:app --reload
-        ```
+        - Ensure backend is running
+        - Check username/password
         """)
-
-# Info box
-st.info("""
-💡 **Quick Guide:**
-1. Enter your registered username
-2. Enter your password
-3. Click Login
-4. Start getting personalized recommendations!
-""")
