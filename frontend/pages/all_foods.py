@@ -168,7 +168,7 @@ with st.sidebar:
 # --- 3. HELPERS ---
 def format_currency(price):
     try:
-        return f"₹{float(price):.2f}"
+        return f"${float(price):.2f}"
     except (ValueError, TypeError):
         return str(price)
 
@@ -330,7 +330,7 @@ def display_foods(food_type=None, tab_name=""):
                 pd.DataFrame(df_data),
                 use_container_width=True,
                 hide_index=True,
-                column_config={"Price": st.column_config.NumberColumn(format="₹%.2f")}
+                column_config={"Price": st.column_config.NumberColumn(format="$%.2f")}
             )
 
     except Exception as ex:
