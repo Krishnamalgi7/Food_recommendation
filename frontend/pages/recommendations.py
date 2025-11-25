@@ -7,15 +7,18 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../.
 
 from frontend.utils.api_client import api_client
 
-st.set_page_config(page_title="AI Recommendations", page_icon="🎯", layout="wide")
+st.set_page_config(page_title="AI Recommendations", page_icon="🎯", layout="wide", initial_sidebar_state="expanded")
+
+# --- 1. FLOATING SIDEBAR CSS ---
 st.markdown("""
     <style>
-    /* SIDEBAR FLOATING DRAWER SETTINGS */
+    /* Hide default nav */
     [data-testid="stSidebarNav"] { display: none; }
 
+    /* Floating Sidebar Drawer */
     section[data-testid="stSidebar"] {
         width: 300px !important;
-        transform: translateX(-285px); /* Hidden by default */
+        transform: translateX(-285px); /* Hide most of it */
         transition: transform 0.3s ease-in-out;
         position: fixed !important;
         top: 0; left: 0; bottom: 0;
@@ -23,22 +26,32 @@ st.markdown("""
         background-color: white;
         box-shadow: 2px 0 10px rgba(0,0,0,0.1);
         border-right: 3px solid #FF6B6B;
+        overflow-y: auto !important;
     }
 
+    /* Open on Hover */
     section[data-testid="stSidebar"]:hover {
-        transform: translateX(0); /* Visible on hover */
+        transform: translateX(0);
     }
 
-    /* RED BUTTONS */
+    /* Buttons */
     div.stButton > button {
         background: linear-gradient(to right, #FF6B6B, #ee5253);
         color: white;
         border: none;
         border-radius: 8px;
+        padding: 0.6rem 1.2rem;
         font-weight: 600;
+        width: 100%;
+    }
+    div.stButton > button:hover {
+        background: linear-gradient(to right, #ee5253, #ff7675);
+        box-shadow: 0 4px 8px rgba(255, 107, 107, 0.4);
+        transform: scale(1.02);
     }
     </style>
 """, unsafe_allow_html=True)
+
 # Check authentication
 if not st.session_state.get('logged_in'):
     st.warning("⚠️ Please login to get recommendations")
@@ -46,6 +59,60 @@ if not st.session_state.get('logged_in'):
         st.switch_page("pages/login.py")
     st.stop()
 
+# --- 2. SIDEBAR NAVIGATION ---
+with st.sidebar:
+    st.markdown("### 👤 User Menu")
+    st.caption(f"Logged in as: **{st.session_state.username}**")
+    st.markdown("---")
+    st.markdown("### 📍 Quick Navigation")
+
+    # Unique keys prevent "Duplicate Widget ID" errors
+    if st.button("🏠 Home", use_container_width=True, key="nav_home"): st.switch_page("app.py")
+    if st.button("👤 Profile", use_container_width=True, key="nav_profile"): st.switch_page("pages/profile.py")
+    if st.button("🏥 Health Condition", use_container_width=True, key="nav_health"): st.switch_page(
+        "pages/health_conditions.py")
+    if st.button("🍽️ All Foods", use_container_width=True, key="nav_foods"): st.switch_page("pages/all_foods.py")
+    if st.button("🎯 AI Recommendations", use_container_width=True, key="nav_recs"): st.switch_page(
+        "pages/recommendations.py")
+
+    st.markdown("---")
+    if st.button("🚪 Logout", use_container_width=True, key="sidebar_logout"): st.switch_page("pages/logout.py")
+
+
+# --- 3. HELPER FUNCTIONS & ICONS ---
+def format_nutrient(nutrient_val, is_calories=False):
+    """Format nutrient values nicely."""
+    try:
+        val = float(nutrient_val)
+        if is_calories:
+            return f"{val:.1f}"  # No unit for calories in the value itself
+        return f"{val:.1f}g"
+    except (ValueError, TypeError):
+        return str(nutrient_val)
+
+
+NUTRIENT_ICONS = {
+    'Calories': '🔥',
+    'Protein': '💪',
+    'Carbohydrates': '🍞',
+    'Fats': '🥑',
+    'Fiber': '🌾',
+    'Sugar': '🍬',
+    'Sodium': '🧂',
+    'Cholesterol': '🥚',
+    'Saturated_Fat': '🧀',
+    'Saturated Fat': '🧀',
+    'Calcium': '🥛',
+    'Iron': '🥩',
+    'Potassium': '🍌',
+    'Magnesium': '🔋',
+    'Vitamin A': '🥕',
+    'Vitamin C': '🍊',
+    'Vitamin B12': '💊',
+    'Vitamin D': '☀️'
+}
+
+# --- 4. MAIN CONTENT ---
 st.title("🎯 AI-Powered Food Recommendations")
 st.write(f"Personalized recommendations for {st.session_state.username}")
 
@@ -180,49 +247,66 @@ def display_recommendations(food_type=None, tab_name=""):
                         if i + j < len(recommendations):
                             rec = recommendations[i + j]
 
+                            # Veg/Non-Veg Visuals
+                            is_veg = str(rec.get('type', '')).lower() == 'veg'
+                            border_color = "#28a745" if is_veg else "#dc3545"  # Green vs Red
+                            icon = "🟢" if is_veg else "🔴"
+
                             with col:
-                                # Calculate color based on match score
+                                # Calculate match color
                                 score = rec['match_score'] * 100
                                 if score >= 80:
-                                    color = "#4CAF50"  # Green
+                                    match_color = "#4CAF50"  # Green
                                 elif score >= 60:
-                                    color = "#FF9800"  # Orange
+                                    match_color = "#FF9800"  # Orange
                                 else:
-                                    color = "#9E9E9E"  # Gray
+                                    match_color = "#9E9E9E"  # Gray
 
-                                st.markdown(f"""
-                                <div style='background-color: #f0f2f6; padding: 20px; border-radius: 10px; border-left: 5px solid {color}; height: 100%;'>
-                                    <h3 style='color: #FF6B6B; margin-top: 0;'>{rec['name']}</h3>
-                                    <p><strong>Category:</strong> {rec['category']}</p>
-                                    <p><strong>Type:</strong> {rec['type']}</p>
-                                    <p><strong>Price:</strong> ₹{rec['price']:.2f}</p>
-                                    <div style='background-color: {color}; color: white; padding: 8px; border-radius: 5px; text-align: center; margin-top: 10px;'>
-                                        <strong>AI Match: {score:.1f}%</strong>
-                                    </div>
-                                </div>
-                                """, unsafe_allow_html=True)
+                                # Render Card HTML
+                                card_html = (
+                                    f'<div style="background-color: white; padding: 1.5rem; border-radius: 12px; '
+                                    f'box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #eee; '
+                                    f'border-top: 5px solid {border_color}; margin-bottom: 10px; height: 100%;">'
+                                    f'<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem;">'
+                                    f'<h3 style="color: #2c3e50; margin: 0; font-size: 1.1rem; font-weight: 700;">{rec["name"]}</h3>'
+                                    f'<span style="font-size: 1.2rem; margin-left: 10px;">{icon}</span>'
+                                    f'</div>'
+                                    f'<p style="color: #666; font-size: 0.9rem; margin: 0;">{rec["category"]}</p>'
+                                    f'<h4 style="color: #FF6B6B; margin: 0.5rem 0;">₹{rec["price"]:.2f}</h4>'
+                                    f'<div style="background-color: {match_color}; color: white; padding: 5px; border-radius: 5px; text-align: center; margin-top: 10px; font-weight: bold;">'
+                                    f'AI Match: {score:.1f}%'
+                                    f'</div>'
+                                    f'</div>'
+                                )
+                                st.markdown(card_html, unsafe_allow_html=True)
 
-                                with st.expander("View Nutrients"):
+                                # --- DYNAMIC NUTRIENTS LOGIC (Updated to show all > 0) ---
+                                with st.expander("Nutrients"):
                                     nutrients = rec['nutrients']
-                                    ncol1, ncol2 = st.columns(2)
 
-                                    with ncol1:
-                                        # Show only nutrients available in the dataset
-                                        if nutrients.get('Calories'):
-                                            st.text(f"Calories: {nutrients.get('Calories', 0):.2f} kcal")
-                                        st.text(f"Protein: {nutrients.get('Protein', 0):.2f}g")
-                                        st.text(f"Carbs: {nutrients.get('Carbohydrates', 0):.2f}g")
-                                        st.text(f"Fats: {nutrients.get('Fats', 0):.2f}g")
-                                        st.text(f"Fiber: {nutrients.get('Fiber', 0):.2f}g")
-                                        if nutrients.get('Saturated_Fat'):
-                                            st.text(f"Saturated Fat: {nutrients.get('Saturated_Fat', 0):.2f}g")
+                                    # Filter: Keep only nutrients > 0
+                                    valid_nutrients = {}
+                                    for k, v in nutrients.items():
+                                        try:
+                                            if float(v) > 0:
+                                                valid_nutrients[k] = v
+                                        except:
+                                            pass
 
-                                    with ncol2:
-                                        st.text(f"Sodium: {nutrients.get('Sodium', 0):.2f}g")
-                                        if nutrients.get('Cholesterol'):
-                                            st.text(f"Cholesterol: {nutrients.get('Cholesterol', 0):.2f}g")
-                                        if nutrients.get('Sugar'):
-                                            st.text(f"Sugar: {nutrients.get('Sugar', 0):.2f}g")
+                                    if valid_nutrients:
+                                        n_cols = st.columns(2)
+                                        for idx, (n_name, n_val) in enumerate(valid_nutrients.items()):
+                                            with n_cols[idx % 2]:
+                                                # Get Icon
+                                                n_icon = NUTRIENT_ICONS.get(n_name, '🥗')
+                                                # Clean name
+                                                clean_name = n_name.replace('_', ' ')
+                                                # Check if calories (no 'g' unit)
+                                                is_cal = (n_name == 'Calories')
+
+                                                st.caption(f"{n_icon} {clean_name}: {format_nutrient(n_val, is_cal)}")
+                                    else:
+                                        st.caption("No nutritional data available")
 
             else:
                 # Table view
@@ -236,8 +320,7 @@ def display_recommendations(food_type=None, tab_name=""):
                         'AI Match (%)': round(rec['match_score'] * 100, 1),
                         'Protein (g)': rec['nutrients'].get('Protein', 0),
                         'Carbs (g)': rec['nutrients'].get('Carbohydrates', 0),
-                        'Fats (g)': rec['nutrients'].get('Fats', 0),
-                        'Fiber (g)': rec['nutrients'].get('Fiber', 0)
+                        'Fats (g)': rec['nutrients'].get('Fats', 0)
                     })
 
                 df = pd.DataFrame(df_data)
@@ -261,15 +344,6 @@ def display_recommendations(food_type=None, tab_name=""):
                     }
                 )
 
-                # Download option
-                csv = df.to_csv(index=False)
-                st.download_button(
-                    label="📥 Download Recommendations as CSV",
-                    data=csv,
-                    file_name=f"ai_recommendations_{st.session_state.username}_{tab_name.lower().replace(' ', '_')}.csv",
-                    mime="text/csv"
-                )
-
         except Exception as ex:
             st.error(f"❌ Error generating recommendations: {str(ex)}")
             st.info("💡 Make sure you have added your health condition in your profile.")
@@ -284,30 +358,3 @@ with main_tab2:
 
 with main_tab3:
     display_recommendations(food_type=None, tab_name="All Recommendations")
-
-# Footer
-st.markdown("---")
-
-# Info box
-st.info("""
-🤖 **How AI Recommendations Work:**
-
-Our KNN (K-Nearest Neighbors) machine learning algorithm analyzes your health condition's nutrient requirements 
-and matches them with foods in our database. The match score indicates how well each food aligns with your 
-personalized nutritional needs. Higher scores mean better matches for your health profile!
-""")
-
-# Navigation
-col1, col2, col3 = st.columns(3)
-
-with col1:
-    if st.button("🍽️ Browse All Foods", use_container_width=True):
-        st.switch_page("pages/all_foods.py")
-
-with col2:
-    if st.button("👤 View Profile", use_container_width=True):
-        st.switch_page("pages/profile.py")
-
-with col3:
-    if st.button("🏠 Go Home", use_container_width=True):
-        st.switch_page("app.py")
