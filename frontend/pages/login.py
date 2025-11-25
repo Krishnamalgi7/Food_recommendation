@@ -144,7 +144,8 @@ with col1:
 with col2:
     with st.expander("Need Help?"):
         st.write("""
-        **Common issues:**
-        - Ensure backend is running
-        - Check username/password
+          Oops! Forgot password ? 
+        - Contact 8792389352
+        - Ask to delete your data completely
+        - Register again and enjoy
         """)

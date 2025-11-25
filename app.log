@@ -3984,3 +3984,108 @@ nutrients.Vitamin_C
 2025-11-25 22:39:01,056 - backend.utils.logger - INFO - User Krishna logged out
 2025-11-25 22:39:01,056 - backend.utils.logger - INFO - User Krishna logged out
 2025-11-25 22:39:01,056 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:42:32,044 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:42:32,044 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:42:32,044 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:42:32,044 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:42:32,044 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:42:32,044 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:42:32,044 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:44:23,098 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:44:23,098 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:44:23,098 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:44:23,098 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:44:23,098 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:44:23,098 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:44:23,098 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:45:10,463 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:45:10,463 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:45:10,463 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:45:10,463 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:45:10,463 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:45:10,463 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:45:10,463 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:50:26,958 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:50:26,958 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:50:26,958 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:50:26,958 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:50:26,958 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:50:26,958 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:50:26,958 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:51:12,204 - backend.utils.logger - INFO - User 1 updated profile
+2025-11-25 22:51:12,204 - backend.utils.logger - INFO - User 1 updated profile
+2025-11-25 22:51:12,204 - backend.utils.logger - INFO - User 1 updated profile
+2025-11-25 22:51:12,204 - backend.utils.logger - INFO - User 1 updated profile
+2025-11-25 22:51:12,204 - backend.utils.logger - INFO - User 1 updated profile
+2025-11-25 22:51:12,204 - backend.utils.logger - INFO - User 1 updated profile
+2025-11-25 22:51:12,204 - backend.utils.logger - INFO - User 1 updated profile
+2025-11-25 22:51:32,002 - backend.utils.logger - INFO - Added 1 conditions for user 1
+2025-11-25 22:51:32,002 - backend.utils.logger - INFO - Added 1 conditions for user 1
+2025-11-25 22:51:32,002 - backend.utils.logger - INFO - Added 1 conditions for user 1
+2025-11-25 22:51:32,002 - backend.utils.logger - INFO - Added 1 conditions for user 1
+2025-11-25 22:51:32,002 - backend.utils.logger - INFO - Added 1 conditions for user 1
+2025-11-25 22:51:32,002 - backend.utils.logger - INFO - Added 1 conditions for user 1
+2025-11-25 22:51:32,002 - backend.utils.logger - INFO - Added 1 conditions for user 1
+2025-11-25 22:52:04,652 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-25 22:52:04,652 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-25 22:52:04,652 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-25 22:52:04,652 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-25 22:52:04,652 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-25 22:52:04,652 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-25 22:52:04,652 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-25 22:52:04,669 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-25 22:52:04,669 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-25 22:52:04,669 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-25 22:52:04,669 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-25 22:52:04,669 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-25 22:52:04,669 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-25 22:52:04,669 - backend.utils.logger - INFO - Generated 10 recommendations for user 1 using percentage scoring
+2025-11-25 22:52:04,671 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-25 22:52:04,671 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-25 22:52:04,671 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-25 22:52:04,671 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-25 22:52:04,671 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-25 22:52:04,671 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-25 22:52:04,671 - backend.utils.logger - INFO - Calculated nutrient requirements for user 1
+2025-11-25 22:52:04,671 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-25 22:52:04,671 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-25 22:52:04,671 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-25 22:52:04,671 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-25 22:52:04,671 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-25 22:52:04,671 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-25 22:52:04,671 - backend.utils.logger - INFO - Generated 10 recommendations for user 1
+2025-11-25 22:52:28,142 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:52:28,142 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:52:28,142 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:52:28,142 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:52:28,142 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:52:28,142 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:52:28,142 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:54:39,776 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:54:39,776 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:54:39,776 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:54:39,776 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:54:39,776 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:54:39,776 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:54:39,776 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:55:33,118 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:55:33,118 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:55:33,118 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:55:33,118 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:55:33,118 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:55:33,118 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:55:33,118 - backend.utils.logger - INFO - User Krishna logged in successfully
+2025-11-25 22:55:54,150 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:55:54,150 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:55:54,150 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:55:54,150 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:55:54,150 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:55:54,150 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 22:55:54,150 - backend.utils.logger - INFO - User Krishna logged out
+2025-11-25 23:01:15,550 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-25 23:01:15,550 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-25 23:01:15,550 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-25 23:01:15,550 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-25 23:01:15,550 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-25 23:01:15,550 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2025-11-25 23:01:15,550 - backend.utils.logger - INFO - Food Recommendation System shutting down
