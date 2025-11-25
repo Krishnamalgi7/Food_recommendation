@@ -79,7 +79,7 @@ with st.sidebar:
 # --- 3. MAIN CONTENT & HELPERS ---
 def format_currency(price):
     try:
-        return f"₹{float(price):.2f}"
+        return f"${float(price):.2f}"
     except (ValueError, TypeError):
         return str(price)
 

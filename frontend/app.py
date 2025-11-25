@@ -199,7 +199,7 @@ def main():
             st.markdown("""
             <div class="feature-box">
                 <h3>🍽️ All Foods</h3>
-                <p>Browse our complete catalog of 20,000+ items.</p>
+                <p>Browse our complete catalog of 1,000+ items.</p>
             </div>
             """, unsafe_allow_html=True)
             if st.button("Browse Foods", key="foods_btn", use_container_width=True): st.switch_page(
@@ -259,7 +259,7 @@ def main():
         <li>🤖 <strong>AI-Powered Recommendations</strong></li>
         <li>🏥 <strong>Health-based Personalization</strong></li>
         <li>📊 <strong>Nutrient Analysis</strong> (12+ nutrients)</li>
-        <li>🍽️ <strong>20,000+ Foods Database</strong></li>
+        <li>🍽️ <strong>1,000+ Foods Database</strong></li>
     </ul>
 </div>
 """
@@ -288,7 +288,7 @@ def main():
     st.markdown("""
     <div style='text-align: center; color: #888; font-size: 0.8rem; border-top: 1px solid #eee; padding-top: 20px;'>
         <p>Built with ❤️ using <strong>FastAPI</strong>, <strong>PostgreSQL</strong> & <strong>Streamlit</strong></p>
-        <p>Powered by <strong>KNN Machine Learning Algorithm</strong> • 20,000+ Foods • 9 Health Conditions</p>
+        <p>Powered by <strong>KNN Machine Learning Algorithm</strong> • 1,000 + Foods • 9 Health Conditions</p>
     </div>
     """, unsafe_allow_html=True)
 

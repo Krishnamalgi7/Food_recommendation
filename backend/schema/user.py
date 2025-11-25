@@ -183,3 +183,20 @@ class UserUpdate(BaseModel):
                 raise ValueError('Mobile number must contain only digits')
 
         return v
+
+class PasswordChange(BaseModel):
+    old_password: str = Field(..., description="Current password")
+    new_password: str = Field(..., min_length=8, description="New password")
+
+    @validator('new_password')
+    def validate_new_password(cls, v):
+        if len(v) < 8:
+            raise ValueError('Password must be at least 8 characters long')
+        if not any(c.isalpha() for c in v):
+            raise ValueError('Password must contain at least one letter')
+        if not any(c.isdigit() for c in v):
+            raise ValueError('Password must contain at least one number')
+        if not re.search(r'[!@#$%^&*(),.?":{}|<>_\-+=]', v):
+            raise ValueError('Password must contain at least one special character')
+        return v
+

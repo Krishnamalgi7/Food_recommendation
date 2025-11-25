@@ -7,15 +7,18 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../.
 
 from frontend.utils.api_client import api_client
 
-st.set_page_config(page_title="Health Conditions", page_icon="🏥", layout="wide")
+st.set_page_config(page_title="Health Conditions", page_icon="🏥", layout="wide", initial_sidebar_state="expanded")
+
+# --- 1. FLOATING SIDEBAR CSS ---
 st.markdown("""
     <style>
-    /* SIDEBAR FLOATING DRAWER SETTINGS */
+    /* Hide default nav */
     [data-testid="stSidebarNav"] { display: none; }
 
+    /* Floating Sidebar Drawer */
     section[data-testid="stSidebar"] {
         width: 300px !important;
-        transform: translateX(-285px); /* Hidden by default */
+        transform: translateX(-285px); /* Hide most of it */
         transition: transform 0.3s ease-in-out;
         position: fixed !important;
         top: 0; left: 0; bottom: 0;
@@ -25,17 +28,25 @@ st.markdown("""
         border-right: 3px solid #FF6B6B;
     }
 
+    /* Open on Hover */
     section[data-testid="stSidebar"]:hover {
-        transform: translateX(0); /* Visible on hover */
+        transform: translateX(0);
     }
 
-    /* RED BUTTONS */
+    /* Buttons */
     div.stButton > button {
         background: linear-gradient(to right, #FF6B6B, #ee5253);
         color: white;
         border: none;
         border-radius: 8px;
+        padding: 0.6rem 1.2rem;
         font-weight: 600;
+        width: 100%;
+    }
+    div.stButton > button:hover {
+        background: linear-gradient(to right, #ee5253, #ff7675);
+        box-shadow: 0 4px 8px rgba(255, 107, 107, 0.4);
+        transform: scale(1.02);
     }
     </style>
 """, unsafe_allow_html=True)
@@ -47,13 +58,33 @@ if not st.session_state.get('logged_in'):
         st.switch_page("pages/login.py")
     st.stop()
 
+# --- 2. SIDEBAR NAVIGATION (This was missing!) ---
+with st.sidebar:
+    st.markdown("### 👤 User Menu")
+    st.caption(f"Logged in as: **{st.session_state.username}**")
+    st.markdown("---")
+    st.markdown("### 📍 Quick Navigation")
+
+    # Unique keys to prevent errors
+    if st.button("🏠 Home", use_container_width=True, key="nav_home_hc"): st.switch_page("app.py")
+    if st.button("👤 Profile", use_container_width=True, key="nav_profile_hc"): st.switch_page("pages/profile.py")
+    if st.button("🏥 Health Condition", use_container_width=True, key="nav_health_hc"): st.switch_page(
+        "pages/health_conditions.py")
+    if st.button("🍽️ All Foods", use_container_width=True, key="nav_foods_hc"): st.switch_page("pages/all_foods.py")
+    if st.button("🎯 AI Recommendations", use_container_width=True, key="nav_recs_hc"): st.switch_page(
+        "pages/recommendations.py")
+
+    st.markdown("---")
+    if st.button("🚪 Logout", use_container_width=True, key="sidebar_logout_hc"): st.switch_page("pages/logout.py")
+
+# --- 3. MAIN CONTENT ---
 st.title("🏥 Manage Your Health Conditions")
 st.write("Select the health conditions that apply to you for personalized recommendations")
 
 # Fetch all available health conditions
 try:
     with st.spinner("Loading health conditions..."):
-        # Hardcoded conditions (you can also fetch from backend)
+        # Hardcoded conditions (fallback if API fails, or you can use api_client.get_health_conditions())
         all_conditions = [
             {"id": 1, "name": "Skin", "description": "Skin health related conditions"},
             {"id": 2, "name": "BP", "description": "Blood pressure management"},
@@ -143,8 +174,6 @@ if submitted:
 
             st.info("🎯 Ready to get personalized recommendations!")
 
-            # Option to get recommendations
-            # This is now valid because we are outside the st.form block
             if st.button("Get Recommendations Now"):
                 st.switch_page("pages/recommendations.py")
 
@@ -174,19 +203,3 @@ with col2:
     - You can update anytime
     - Your data never leaves our system
     """)
-
-# Navigation
-st.markdown("---")
-col1, col2, col3 = st.columns(3)
-
-with col1:
-    if st.button("👤 View Profile", use_container_width=True):
-        st.switch_page("pages/profile.py")
-
-with col2:
-    if st.button("🍎 Get Recommendations", use_container_width=True):
-        st.switch_page("pages/recommendations.py")
-
-with col3:
-    if st.button("🏠 Go Home", use_container_width=True):
-        st.switch_page("app.py")

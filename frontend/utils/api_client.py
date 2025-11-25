@@ -95,6 +95,39 @@ class APIClient:
         response.raise_for_status()
         return response.json()
 
+        # ... existing methods in APIClient ...
+
+    def update_profile(self, name: str, dob: str, mobile: str) -> Dict[str, Any]:
+        """Update user profile details"""
+        url = f"{self.base_url}/users/me"
+
+        data = {}
+        if name: data["name"] = name
+        if dob: data["dob"] = dob
+        if mobile: data["mobile"] = int(mobile)
+
+        response = requests.put(url, json=data, headers=self._get_headers())
+
+        if response.status_code != 200:
+            self._handle_error(response)
+
+        return response.json()
+
+    def change_password(self, old_password: str, new_password: str) -> Dict[str, Any]:
+        """Change user password"""
+        url = f"{self.base_url}/users/change-password"
+        data = {
+            "old_password": old_password,
+            "new_password": new_password
+        }
+
+        response = requests.put(url, json=data, headers=self._get_headers())
+
+        if response.status_code != 200:
+            self._handle_error(response)
+
+        return response.json()
+
     def get_health_conditions(self) -> list:
         """Get all health conditions"""
         url = f"{self.base_url}/health_condition/"

@@ -1,11 +1,12 @@
 from fastapi import APIRouter, Depends, status, HTTPException
 from sqlalchemy.orm import Session
 from pydantic import BaseModel, Field
+from datetime import datetime
 
 from backend.utils.database import get_db
-from backend.utils.auth import hash_password, get_current_user
+from backend.utils.auth import hash_password, verify_password, get_current_user
 from backend.models.custom_tables import User, UserConditionAssociation
-from backend.schema.user import UserCreate, UserResponse, UserUpdate
+from backend.schema.user import UserCreate, UserResponse, UserUpdate, PasswordChange
 from backend.utils.logger import CustomLogger
 
 LOGGER = CustomLogger()
@@ -47,10 +48,19 @@ def create_user(request: UserCreate, db: Session = Depends(get_db)):
 
         hashed_password = hash_password(request.password)
 
+        # Parse DOB
+        try:
+            if isinstance(request.dob, str):
+                dob_date = datetime.strptime(request.dob, "%d/%m/%Y").date()
+            else:
+                dob_date = request.dob
+        except ValueError:
+            raise HTTPException(status_code=400, detail="Invalid DOB format")
+
         db_user = User(
             name=request.name,
             password=hashed_password,
-            dob=request.dob,
+            dob=dob_date,
             mobile=request.mobile,
             is_active=True
         )
@@ -77,10 +87,8 @@ def create_user(request: UserCreate, db: Session = Depends(get_db)):
 def create_user_with_condition(request: UserCreateWithCondition, db: Session = Depends(get_db)):
     """Create a new user with health condition"""
     try:
-        # Check if user exists
         existing_user = db.query(User).filter(User.name == request.name).first()
         if existing_user:
-            LOGGER.error(f"Username '{request.name}' already exists")
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
                 detail="Username already exists"
@@ -88,14 +96,11 @@ def create_user_with_condition(request: UserCreateWithCondition, db: Session = D
 
         existing_mobile = db.query(User).filter(User.mobile == request.mobile).first()
         if existing_mobile:
-            LOGGER.error(f"Mobile number already registered")
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
                 detail="Mobile number already registered"
             )
 
-        # Parse DOB (DD/MM/YYYY format)
-        from datetime import datetime
         try:
             dob_date = datetime.strptime(request.dob, "%d/%m/%Y").date()
         except ValueError:
@@ -104,10 +109,8 @@ def create_user_with_condition(request: UserCreateWithCondition, db: Session = D
                 detail="Date of birth must be in DD/MM/YYYY format"
             )
 
-        # Hash password
         hashed_password = hash_password(request.password)
 
-        # Create user
         db_user = User(
             name=request.name,
             password=hashed_password,
@@ -117,9 +120,8 @@ def create_user_with_condition(request: UserCreateWithCondition, db: Session = D
         )
 
         db.add(db_user)
-        db.flush()  # Get user ID without committing
+        db.flush()
 
-        # Add health condition association
         user_condition = UserConditionAssociation(
             user_id=db_user.id,
             condition_id=request.condition_id
@@ -150,58 +152,76 @@ def get_current_user_info(current_user: User = Depends(get_current_user)):
 
 
 @router.put('/me', response_model=UserResponse)
-def update_user(
+def update_user_profile(
         request: UserUpdate,
         current_user: User = Depends(get_current_user),
         db: Session = Depends(get_db)
 ):
-    """Update current user information"""
+    """Update user profile details (Name, DOB, Mobile)"""
     try:
-        if request.name is not None:
-            existing = db.query(User).filter(
-                User.name == request.name,
-                User.id != current_user.id
-            ).first()
+        # 1. Update Name
+        if request.name and request.name != current_user.name:
+            existing = db.query(User).filter(User.name == request.name).first()
             if existing:
-                raise HTTPException(
-                    status_code=status.HTTP_400_BAD_REQUEST,
-                    detail="Username already exists"
-                )
+                raise HTTPException(status_code=400, detail="Username already exists")
             current_user.name = request.name
 
-        if request.password is not None:
-            current_user.password = hash_password(request.password)
+        # 2. Update DOB
+        if request.dob:
+            try:
+                # Handle both string and date object just in case
+                if isinstance(request.dob, str):
+                    date_obj = datetime.strptime(request.dob, "%d/%m/%Y").date()
+                    current_user.dob = date_obj
+                else:
+                    current_user.dob = request.dob
+            except ValueError:
+                raise HTTPException(status_code=400, detail="Invalid DOB format")
 
-        if request.dob is not None:
-            current_user.dob = request.dob
-
-        if request.mobile is not None:
-            existing = db.query(User).filter(
-                User.mobile == request.mobile,
-                User.id != current_user.id
-            ).first()
+        # 3. Update Mobile
+        if request.mobile and request.mobile != current_user.mobile:
+            existing = db.query(User).filter(User.mobile == request.mobile).first()
             if existing:
-                raise HTTPException(
-                    status_code=status.HTTP_400_BAD_REQUEST,
-                    detail="Mobile number already registered"
-                )
+                raise HTTPException(status_code=400, detail="Mobile number already registered")
             current_user.mobile = request.mobile
 
         db.commit()
         db.refresh(current_user)
 
-        LOGGER.info(f"User {current_user.id} updated successfully")
+        LOGGER.info(f"User {current_user.id} updated profile")
         return current_user
 
     except HTTPException:
         raise
     except Exception as ex:
         db.rollback()
-        LOGGER.error(f"Updating user failed: {str(ex)}")
-        raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail="Failed to update user"
-        )
+        LOGGER.error(f"Profile update failed: {str(ex)}")
+        raise HTTPException(status_code=500, detail=f"Failed to update profile: {str(ex)}")
+
+
+@router.put('/change-password')
+def change_password(
+        password_data: PasswordChange,
+        current_user: User = Depends(get_current_user),
+        db: Session = Depends(get_db)
+):
+    """Securely change user password"""
+
+    # 1. Verify old password
+    if not verify_password(password_data.old_password, current_user.password):
+        raise HTTPException(status_code=400, detail="Incorrect old password")
+
+    # 2. Hash and set new password
+    current_user.password = hash_password(password_data.new_password)
+
+    try:
+        db.commit()
+        LOGGER.info(f"User {current_user.id} changed password")
+        return {"message": "Password updated successfully"}
+    except Exception as e:
+        db.rollback()
+        LOGGER.error(f"Password change failed: {str(e)}")
+        raise HTTPException(status_code=500, detail="Failed to update password")
 
 
 @router.delete('/me')
@@ -213,14 +233,7 @@ def delete_user(
     try:
         current_user.is_active = False
         db.commit()
-
-        LOGGER.info(f"User {current_user.id} deactivated")
         return {"message": "Account deactivated successfully"}
-
     except Exception as ex:
         db.rollback()
-        LOGGER.error(f"Deactivating user failed: {str(ex)}")
-        raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail="Failed to deactivate account"
-        )
+        raise HTTPException(status_code=500, detail="Failed to deactivate account")

@@ -316,7 +316,7 @@ def display_recommendations(food_type=None, tab_name=""):
                         'Name': rec['name'],
                         'Category': rec['category'],
                         'Type': rec['type'],
-                        'Price (₹)': rec['price'],
+                        'Price ($)': rec['price'],
                         'AI Match (%)': round(rec['match_score'] * 100, 1),
                         'Protein (g)': rec['nutrients'].get('Protein', 0),
                         'Carbs (g)': rec['nutrients'].get('Carbohydrates', 0),
@@ -337,9 +337,9 @@ def display_recommendations(food_type=None, tab_name=""):
                             max_value=100,
                             format="%.1f%%"
                         ),
-                        "Price (₹)": st.column_config.NumberColumn(
-                            "Price (₹)",
-                            format="₹%.2f"
+                        "Price ($)": st.column_config.NumberColumn(
+                            "Price ($)",
+                            format="$%.2f"
                         )
                     }
                 )
