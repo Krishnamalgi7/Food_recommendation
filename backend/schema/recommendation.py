@@ -4,14 +4,11 @@ from pydantic import BaseModel, Field
 
 class NutrientInfo(BaseModel):
     """Nutrient information - based on new dataset nutrients"""
-    Calories: float
     Carbohydrates: float
     Fats: float
     Fiber: float
     Protein: float
     Sodium: float
-    Saturated_Fat: float
-    Cholesterol: float
     Sugar: float
 
 

@@ -16,8 +16,7 @@ class ImprovedKNNFoodRecommender:
     """KNN-based food recommendation with proper magnitude-based scoring"""
 
     NUTRIENT_FEATURES = [
-        'Calories', 'Carbohydrates', 'Fats', 'Fiber', 'Protein',
-        'Sodium', 'Saturated_Fat', 'Cholesterol', 'Sugar'
+        'Carbohydrates', 'Fats', 'Fiber', 'Protein','Sodium', 'Sugar'
     ]
 
     def __init__(self):
@@ -187,7 +186,7 @@ class ImprovedKNNFoodRecommender:
             n_recommendations: int = 20,
             category_filter: str = None,
             food_type_filter: str = None,
-            scoring_method: str = 'percentage'  # 'cosine', 'percentage', or 'hybrid'
+            scoring_method: str = 'hybrid'  # 'cosine', 'percentage', or 'hybrid'
     ) -> List[Dict[str, Any]]:
         """
         Generate food recommendations using KNN and magnitude-based scoring
@@ -209,7 +208,7 @@ class ImprovedKNNFoodRecommender:
             user_vector_raw = np.array([float(requirements[f]) for f in self.NUTRIENT_FEATURES])
 
             # Step 2: Filter food data - ONLY priority nutrients need to be > 0
-            PRIORITY_NUTRIENTS = ['Protein', 'Fats', 'Fiber']
+            PRIORITY_NUTRIENTS = ['Carbohydrates', 'Fats', 'Fiber', 'Protein','Sodium', 'Sugar']
             filtered_food_data = self.food_data[
                 self.food_data[PRIORITY_NUTRIENTS].gt(0).all(axis=1)
             ].copy()
@@ -253,7 +252,7 @@ class ImprovedKNNFoodRecommender:
 
             # Step 6: KNN on scaled data to find candidates
             knn_model = NearestNeighbors(
-                n_neighbors=min(n_recommendations * 3, len(filtered_food_data)),  # Get more candidates
+                n_neighbors=min(n_recommendations, len(filtered_food_data)),  # Get more candidates
                 algorithm='ball_tree',
                 metric='euclidean'
             )

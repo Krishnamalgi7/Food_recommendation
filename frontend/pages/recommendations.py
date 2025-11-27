@@ -185,10 +185,10 @@ def display_recommendations(food_type=None, tab_name=""):
                     category_filter=category_filter,
                     food_type=food_type
                 )
-
+            print(recommendations_response)
             recommendations = recommendations_response.get('recommendations', [])
             nutrient_requirements = recommendations_response.get('nutrient_requirements', {})
-
+            print(nutrient_requirements)
             if not recommendations:
                 st.warning(f"No {tab_name.lower()} found. Try different filters.")
                 return
@@ -199,7 +199,7 @@ def display_recommendations(food_type=None, tab_name=""):
             with st.expander("📊 Your Target Nutrient Requirements", expanded=False):
                 req_cols = st.columns(4)
                 nutrients_list = list(nutrient_requirements.items())
-
+                print(nutrients_list)
                 for idx, (nutrient, value) in enumerate(nutrients_list):
                     with req_cols[idx % 4]:
                         st.metric(
