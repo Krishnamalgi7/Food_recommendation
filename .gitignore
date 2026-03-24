@@ -8,3 +8,25 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Environment variables
+.env
+
+# IDEs
+.vscode
+.idea
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
