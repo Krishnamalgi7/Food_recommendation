@@ -78,6 +78,7 @@ with col2:
                 st.session_state.logged_in = False
                 st.session_state.user_id = None
                 st.session_state.username = None
+                st.session_state.email = None
                 st.session_state.access_token = None
                 st.session_state.refresh_token = None
 
@@ -97,6 +98,7 @@ with col2:
                 st.session_state.logged_in = False
                 st.session_state.user_id = None
                 st.session_state.username = None
+                st.session_state.email = None
                 st.session_state.access_token = None
                 st.session_state.refresh_token = None
 

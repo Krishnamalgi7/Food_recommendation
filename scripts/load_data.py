@@ -61,19 +61,16 @@ def parse_nutrients_from_row(row):
     # Expected nutrients: Calcium, Carbohydrates, Fats, Fiber, Iron, Magnesium, 
     # Potassium, Protein, Sodium, Vitamin_A, Vitamin_B12, Vitamin_C
     expected_nutrients = {
-        'Calcium': 0.0,
-        'Carbohydrates': nutrients.get('Carbohydrates', 0.0),
-        'Fats': nutrients.get('Fats', 0.0),
-        'Fiber': nutrients.get('Fiber', 0.0),
-        'Iron': 0.0,
-        'Magnesium': 0.0,
-        'Potassium': 0.0,
-        'Protein': nutrients.get('Protein', 0.0),
-        'Sodium': nutrients.get('Sodium', 0.0),
-        'Vitamin_A': 0.0,
-        'Vitamin_B12': 0.0,
-        'Vitamin_C': 0.0
-    }
+    "Calories": nutrients.get("Calories", 0.0),
+    "Carbohydrates": nutrients.get("Carbohydrates", 0.0),
+    "Fats": nutrients.get("Fats", 0.0),
+    "Saturated_Fat": nutrients.get("Saturated_Fat", 0.0),
+    "Cholesterol": nutrients.get("Cholesterol", 0.0),
+    "Protein": nutrients.get("Protein", 0.0),
+    "Fiber": nutrients.get("Fiber", 0.0),
+    "Sugar": nutrients.get("Sugar", 0.0),
+    "Sodium": nutrients.get("Sodium", 0.0)
+}
     
     # Merge with any additional nutrients from the dataset
     for key, value in nutrients.items():

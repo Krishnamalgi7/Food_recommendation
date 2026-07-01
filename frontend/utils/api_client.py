@@ -12,66 +12,74 @@ class APIClient:
     def _get_headers(self, include_auth: bool = True) -> Dict[str, str]:
         """Get request headers"""
         headers = {"Content-Type": "application/json"}
-
         if include_auth and st.session_state.get('access_token'):
             headers["Authorization"] = f"Bearer {st.session_state.access_token}"
-
         return headers
 
     def _handle_error(self, response):
         """Handle API errors with detailed messages"""
+        # Step 1: Try to parse the response body as JSON
         try:
             error = response.json()
-            if 'detail' in error:
-                if isinstance(error['detail'], list):
-                    errors = [f"{err.get('loc', [''])[- 1]}: {err.get('msg', '')}" for err in error['detail']]
-                    raise Exception("Validation errors:\n" + "\n".join(errors))
-                else:
-                    raise Exception(str(error['detail']))
-        except:
-            pass
+        except Exception:
+            # Body is not JSON; fall back to HTTP status error
+            response.raise_for_status()
+            return
+
+        # Step 2: Raise with the backend's own error message (outside the try block
+        # so it is NOT caught by the JSON-parse except above)
+        if 'detail' in error:
+            if isinstance(error['detail'], list):
+                errors = [
+                    f"{err.get('loc', [''])[-1]}: {err.get('msg', '')}"
+                    for err in error['detail']
+                ]
+                raise Exception("Validation errors:\n" + "\n".join(errors))
+            else:
+                raise Exception(str(error['detail']))
+
         response.raise_for_status()
 
-    def register_user(self, name: str, password: str, dob: str, mobile: int) -> Dict[str, Any]:
+    def register_user(self, name: str, email: str, password: str, dob: str, mobile: int) -> Dict[str, Any]:
         """Register a new user (basic)"""
         url = f"{self.base_url}/users/"
         data = {
             "name": name,
+            "email": email,
             "password": password,
             "dob": dob,
             "mobile": int(mobile)
         }
-
         response = requests.post(url, json=data, headers=self._get_headers(include_auth=False))
         if response.status_code != 201:
             self._handle_error(response)
         return response.json()
 
-    def register_user_with_condition(self, name: str, password: str, dob: str, mobile: int, condition_id: int) -> Dict[
-        str, Any]:
+    def register_user_with_condition(
+        self, name: str, email: str, password: str, dob: str, mobile: int, condition_id: int
+    ) -> Dict[str, Any]:
         """Register a new user with health condition"""
         url = f"{self.base_url}/users/register-with-condition"
         data = {
             "name": name,
+            "email": email,
             "password": password,
             "dob": dob,
             "mobile": int(mobile),
             "condition_id": condition_id
         }
-
         response = requests.post(url, json=data, headers=self._get_headers(include_auth=False))
         if response.status_code != 201:
             self._handle_error(response)
         return response.json()
 
-    def login(self, name: str, password: str) -> Dict[str, Any]:
-        """Login user"""
+    def login(self, email: str, password: str) -> Dict[str, Any]:
+        """Login user with email and password"""
         url = f"{self.base_url}/auth/login"
         data = {
-            "name": name,
+            "email": email,
             "password": password
         }
-
         response = requests.post(url, json=data, headers=self._get_headers(include_auth=False))
         response.raise_for_status()
         return response.json()
@@ -79,13 +87,11 @@ class APIClient:
     def logout(self) -> Dict[str, Any]:
         """Logout user"""
         url = f"{self.base_url}/auth/logout"
-
         try:
             response = requests.post(url, headers=self._get_headers())
             response.raise_for_status()
             return response.json()
-        except Exception as ex:
-            # Even if logout fails on backend, we'll clear local session
+        except Exception:
             return {"message": "Logged out locally"}
 
     def get_profile(self) -> Dict[str, Any]:
@@ -95,22 +101,20 @@ class APIClient:
         response.raise_for_status()
         return response.json()
 
-        # ... existing methods in APIClient ...
-
     def update_profile(self, name: str, dob: str, mobile: str) -> Dict[str, Any]:
         """Update user profile details"""
         url = f"{self.base_url}/users/me"
-
         data = {}
-        if name: data["name"] = name
-        if dob: data["dob"] = dob
-        if mobile: data["mobile"] = int(mobile)
+        if name:
+            data["name"] = name
+        if dob:
+            data["dob"] = dob
+        if mobile:
+            data["mobile"] = int(mobile)
 
         response = requests.put(url, json=data, headers=self._get_headers())
-
         if response.status_code != 200:
             self._handle_error(response)
-
         return response.json()
 
     def change_password(self, old_password: str, new_password: str) -> Dict[str, Any]:
@@ -120,12 +124,9 @@ class APIClient:
             "old_password": old_password,
             "new_password": new_password
         }
-
         response = requests.put(url, json=data, headers=self._get_headers())
-
         if response.status_code != 200:
             self._handle_error(response)
-
         return response.json()
 
     def get_health_conditions(self) -> list:
@@ -146,19 +147,14 @@ class APIClient:
         """Add health conditions to user"""
         url = f"{self.base_url}/recommendations/user-conditions"
         data = {"condition_ids": condition_ids}
-
         response = requests.post(url, json=data, headers=self._get_headers())
         response.raise_for_status()
         return response.json()
 
-    def get_all_foods(self, page: int = 1, limit: int = 100, food_type: str = None, category: str = None) -> Dict[
-        str, Any]:
+    def get_all_foods(self, page: int = 1, limit: int = 100, food_type: str = None, category: str = None) -> Dict[str, Any]:
         """Get all foods with pagination and filters"""
         url = f"{self.base_url}/food/all"
-        params = {
-            "page": page,
-            "limit": limit
-        }
+        params = {"page": page, "limit": limit}
         if food_type:
             params["food_type"] = food_type
         if category:
@@ -168,8 +164,12 @@ class APIClient:
         response.raise_for_status()
         return response.json()
 
-    def get_recommendations(self, n_recommendations: int = 100, category_filter: Optional[str] = None,
-                            food_type: Optional[str] = None) -> Dict[str, Any]:
+    def get_recommendations(
+        self,
+        n_recommendations: int = 10,
+        category_filter: Optional[str] = None,
+        food_type: Optional[str] = None
+    ) -> Dict[str, Any]:
         """Get food recommendations"""
         url = f"{self.base_url}/recommendations/generate"
         data = {
@@ -177,7 +177,6 @@ class APIClient:
             "category_filter": category_filter,
             "food_type": food_type
         }
-
         response = requests.post(url, json=data, headers=self._get_headers())
         response.raise_for_status()
         return response.json()

@@ -122,12 +122,12 @@ def insert_food(request: food.FoodItemsBatch, db: Session = Depends(get_db)):
         return {"error": str(ex)}
 
 
-@router.get('/{name}', response_model=List[food.Food], status_code=status.HTTP_200_OK)
-def search_food_name(name, db: Session = Depends(get_db)):
-    """Search food by name"""
+@router.get('/category/{category}', response_model=List[food.Food], status_code=status.HTTP_200_OK)
+def search_food_category(category, db: Session = Depends(get_db)):
+    """Search food by category"""
     try:
         data = db.query(custom_tables.Food).filter(
-            custom_tables.Food.name.ilike(f"%{name}%")
+            custom_tables.Food.category.ilike(f"%{category}%")
         ).limit(100).all()
         return data
     except Exception as ex:
@@ -135,12 +135,12 @@ def search_food_name(name, db: Session = Depends(get_db)):
         return []
 
 
-@router.get('/category/{category}', response_model=List[food.Food], status_code=status.HTTP_200_OK)
-def search_food_category(category, db: Session = Depends(get_db)):
-    """Search food by category"""
+@router.get('/{name}', response_model=List[food.Food], status_code=status.HTTP_200_OK)
+def search_food_name(name, db: Session = Depends(get_db)):
+    """Search food by name"""
     try:
         data = db.query(custom_tables.Food).filter(
-            custom_tables.Food.category.ilike(f"%{category}%")
+            custom_tables.Food.name.ilike(f"%{name}%")
         ).limit(100).all()
         return data
     except Exception as ex:

@@ -207,10 +207,12 @@ class ImprovedKNNFoodRecommender:
             requirements = self.get_user_nutrient_requirements(user_id, db)
             user_vector_raw = np.array([float(requirements[f]) for f in self.NUTRIENT_FEATURES])
 
-            # Step 2: Filter food data - ONLY priority nutrients need to be > 0
-            PRIORITY_NUTRIENTS = ['Carbohydrates', 'Fats', 'Fiber', 'Protein','Sodium', 'Sugar']
+            # Step 2: Filter food data - only require a food to have at least one
+            # macronutrient (carbs OR protein > 0) to confirm it has nutritional data.
+            # Requiring ALL nutrients (incl. Sugar, Sodium) > 0 incorrectly dropped
+            # valid foods like plain rice (Sugar=0) or eggs (Sugar=0).
             filtered_food_data = self.food_data[
-                self.food_data[PRIORITY_NUTRIENTS].gt(0).all(axis=1)
+                (self.food_data['Carbohydrates'] > 0) | (self.food_data['Protein'] > 0)
             ].copy()
 
             if category_filter:
@@ -251,8 +253,11 @@ class ImprovedKNNFoodRecommender:
             user_vector_scaled = scaled[-1].reshape(1, -1)
 
             # Step 6: KNN on scaled data to find candidates
+            # Fetch 3× the requested count so the hybrid re-ranking (Step 7) has a
+            # meaningful pool to promote better matches from.
+            n_candidates = min(n_recommendations * 3, len(filtered_food_data))
             knn_model = NearestNeighbors(
-                n_neighbors=min(n_recommendations, len(filtered_food_data)),  # Get more candidates
+                n_neighbors=max(n_candidates, 1),
                 algorithm='ball_tree',
                 metric='euclidean'
             )
@@ -260,11 +265,8 @@ class ImprovedKNNFoodRecommender:
             distances, indices = knn_model.kneighbors(user_vector_scaled)
 
             # Step 7: Calculate magnitude-based match scores using raw values
-            # Give priority nutrients higher weight
-            weights = np.array([
-                2.0 if nutrient in PRIORITY_NUTRIENTS else 1.0
-                for nutrient in self.NUTRIENT_FEATURES
-            ])
+            # All features treated equally with weight 2.0
+            weights = np.full(len(self.NUTRIENT_FEATURES), 2.0)
 
             recommendations = []
             for idx, distance in zip(indices[0], distances[0]):

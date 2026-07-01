@@ -28,40 +28,29 @@ def verify_password(plain_password: str, hashed_password: str) -> bool:
 
 
 def create_access_token(data: dict, expires_delta: Optional[timedelta] = None) -> str:
-    """Create JWT access token"""
+    """Create JWT access token.  'sub' must be the user's email."""
     to_encode = data.copy()
-    if expires_delta:
-        expire = datetime.utcnow() + expires_delta
-    else:
-        expire = datetime.utcnow() + timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)
-
-    to_encode.update({
-        "exp": expire,
-        "type": "access",
-        "sub": str(to_encode.get("sub"))  # Ensure 'sub' is a string
-    })
-    encoded_jwt = jwt.encode(to_encode, settings.SECRET_KEY, algorithm=settings.ALGORITHM)
-    return encoded_jwt
+    expire = (
+        datetime.utcnow() + expires_delta
+        if expires_delta
+        else datetime.utcnow() + timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)
+    )
+    to_encode.update({"exp": expire, "type": "access"})
+    return jwt.encode(to_encode, settings.SECRET_KEY, algorithm=settings.ALGORITHM)
 
 
 def create_refresh_token(data: dict) -> str:
-    """Create JWT refresh token"""
+    """Create JWT refresh token.  'sub' must be the user's email."""
     to_encode = data.copy()
     expire = datetime.utcnow() + timedelta(days=settings.REFRESH_TOKEN_EXPIRE_DAYS)
-    to_encode.update({
-        "exp": expire,
-        "type": "refresh",
-        "sub": str(to_encode.get("sub"))  # Ensure 'sub' is a string
-    })
-    encoded_jwt = jwt.encode(to_encode, settings.SECRET_KEY, algorithm=settings.ALGORITHM)
-    return encoded_jwt
+    to_encode.update({"exp": expire, "type": "refresh"})
+    return jwt.encode(to_encode, settings.SECRET_KEY, algorithm=settings.ALGORITHM)
 
 
 def decode_token(token: str) -> dict:
     """Decode JWT token"""
     try:
-        payload = jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
-        return payload
+        return jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
     except JWTError:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
@@ -74,7 +63,7 @@ async def get_current_user(
     credentials: HTTPAuthorizationCredentials = Depends(security),
     db: Session = Depends(get_db)
 ) -> User:
-    """Get current authenticated user"""
+    """Get current authenticated user.  JWT sub is the user's email."""
     token = credentials.credentials
     payload = decode_token(token)
 
@@ -84,15 +73,14 @@ async def get_current_user(
             detail="Invalid token type"
         )
 
-    user_id_str = payload.get("sub")
-    if not user_id_str or not user_id_str.isdigit():
+    email: str = payload.get("sub")
+    if not email:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Invalid subject claim"
+            detail="Invalid token: missing subject"
         )
 
-    user_id = int(user_id_str)
-    user = db.query(User).filter(User.id == user_id).first()
+    user = db.query(User).filter(User.email == email).first()
     if user is None:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,

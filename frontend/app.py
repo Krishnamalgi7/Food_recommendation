@@ -7,7 +7,6 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 # 1. Page Config
 st.set_page_config(
     page_title="Food Recommendation System",
-    page_icon="🍎",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -15,7 +14,8 @@ st.set_page_config(
 # 2. Initialize Session State
 if 'logged_in' not in st.session_state: st.session_state.logged_in = False
 if 'user_id' not in st.session_state: st.session_state.user_id = None
-if 'username' not in st.session_state: st.session_state.username = None
+if 'username' not in st.session_state: st.session_state.username = None   # Full name for display
+if 'email' not in st.session_state: st.session_state.email = None         # Email (auth identifier)
 if 'access_token' not in st.session_state: st.session_state.access_token = None
 
 # 3. DYNAMIC CSS SELECTION

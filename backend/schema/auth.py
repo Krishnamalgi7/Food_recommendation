@@ -1,5 +1,6 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, EmailStr
 from datetime import date
+from typing import Optional
 
 
 class Token(BaseModel):
@@ -12,12 +13,12 @@ class Token(BaseModel):
 class TokenData(BaseModel):
     """Token payload data"""
     user_id: int
-    username: str
+    email: str
 
 
 class LoginRequest(BaseModel):
-    """Login request"""
-    name: str = Field(..., description="Username")
+    """Login request — uses email instead of username"""
+    email: EmailStr = Field(..., description="Registered email address")
     password: str = Field(..., description="Password")
 
 
@@ -27,7 +28,8 @@ class LoginResponse(BaseModel):
     refresh_token: str
     token_type: str = "bearer"
     user_id: int
-    name: str
+    name: str          # Full display name
+    email: str         # Auth identifier, stored in session
     message: str = "Login successful"
 
 
@@ -39,9 +41,11 @@ class RefreshTokenRequest(BaseModel):
 class UserProfile(BaseModel):
     """User profile response"""
     id: int
-    name: str
+    name: str           # Full display name
+    email: Optional[str] = None
     dob: date
     mobile: int
+    is_active: bool = True
     health_conditions: list = []
 
     class Config:

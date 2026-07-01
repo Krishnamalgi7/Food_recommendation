@@ -15,6 +15,6 @@ data = {
 df = pd.DataFrame(data)
 
 # Save to CSV
-df.to_csv("normalized_health_conditions.csv", index=False)
+df.to_csv("data/health_conditions.csv", index=False)
 
-print("CSV file 'normalized_health_conditions.csv' created successfully.")
+print("CSV file 'health_conditions.csv' created successfully.")

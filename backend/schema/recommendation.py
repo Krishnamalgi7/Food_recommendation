@@ -16,8 +16,8 @@ class FoodRecommendation(BaseModel):
     """Single food recommendation"""
     food_id: int
     name: str
-    category: str
-    type: str
+    category: Optional[str] = ""
+    type: Optional[str] = ""
     price: float
     match_score: float = Field(..., description="Match score (0-1, higher is better)")
     distance: float = Field(..., description="Distance from ideal nutrients")

@@ -114,17 +114,17 @@ try:
                 e_col1, e_col2 = st.columns(2)
 
                 with e_col1:
-                    new_name = st.text_input("Username", value=profile['name'])
+                    new_name = st.text_input("Full Name", value=profile['name'])
                     # Parse existing DOB
                     try:
                         dob_obj = datetime.strptime(profile['dob'], '%Y-%m-%d')
-                    except:
+                    except Exception:
                         dob_obj = datetime.now()
                     new_dob = st.date_input("Date of Birth", value=dob_obj)
 
                 with e_col2:
                     new_mobile = st.text_input("Mobile Number", value=str(profile['mobile']))
-                    st.info("User ID cannot be changed")
+                    st.info(f"Email: **{profile.get('email', 'N/A')}** (cannot be changed here)")
 
                 st.markdown("---")
                 save_col1, save_col2 = st.columns([1, 4])
@@ -149,7 +149,8 @@ try:
             v_col1, v_col2, v_col3 = st.columns(3)
             with v_col1:
                 st.markdown(f"**User ID:** {profile['id']}")
-                st.markdown(f"**Username:** {profile['name']}")
+                st.markdown(f"**Full Name:** {profile['name']}")
+                st.markdown(f"**Email:** {profile.get('email', 'N/A')}")
 
             with v_col2:
                 # FORMAT DATE FOR DISPLAY (DD-MM-YYYY)

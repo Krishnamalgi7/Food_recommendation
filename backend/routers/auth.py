@@ -29,22 +29,23 @@ router = APIRouter(
 
 @router.post('/login', response_model=LoginResponse)
 def login(request: LoginRequest, db: Session = Depends(get_db)):
-    """User login endpoint"""
+    """User login — authenticates by email and password"""
     try:
-        user = db.query(User).filter(User.name == request.name).first()
+        # Look up user by email (the unique auth identifier)
+        user = db.query(User).filter(User.email == request.email).first()
 
         if not user:
-            LOGGER.warning(f"Login attempt with non-existent username: {request.name}")
+            LOGGER.warning(f"Login attempt with unregistered email: {request.email}")
             raise HTTPException(
                 status_code=status.HTTP_401_UNAUTHORIZED,
-                detail="Incorrect username or password"
+                detail="Incorrect email or password"
             )
 
         if not verify_password(request.password, user.password):
-            LOGGER.warning(f"Failed login attempt for user: {request.name}")
+            LOGGER.warning(f"Failed login attempt for email: {request.email}")
             raise HTTPException(
                 status_code=status.HTTP_401_UNAUTHORIZED,
-                detail="Incorrect username or password"
+                detail="Incorrect email or password"
             )
 
         if not user.is_active:
@@ -53,25 +54,26 @@ def login(request: LoginRequest, db: Session = Depends(get_db)):
                 detail="User account is inactive"
             )
 
-        access_token = create_access_token(data={"sub": user.id, "username": user.name})
-        refresh_token = create_refresh_token(data={"sub": user.id})
+        # sub = email (the stable unique identifier in the JWT)
+        access_token = create_access_token(data={"sub": user.email, "name": user.name})
+        refresh_token = create_refresh_token(data={"sub": user.email})
 
-        LOGGER.info(f"User {request.name} logged in successfully")
+        LOGGER.info(f"User {user.email} logged in successfully")
 
         return LoginResponse(
             access_token=access_token,
             refresh_token=refresh_token,
             user_id=user.id,
-            name=user.name
+            name=user.name,
+            email=user.email
         )
 
     except HTTPException:
         raise
     except Exception as ex:
         import traceback
-        error_trace = traceback.format_exc()
         LOGGER.error(f"Login failed: {str(ex)}")
-        LOGGER.error(f"Traceback: {error_trace}")
+        LOGGER.error(traceback.format_exc())
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Login failed: {str(ex)}"
@@ -90,11 +92,11 @@ def refresh_token(request: RefreshTokenRequest):
                 detail="Invalid token type"
             )
 
-        user_id = payload.get("sub")
-        username = payload.get("username")
+        email = payload.get("sub")
+        name = payload.get("name", "")
 
-        access_token = create_access_token(data={"sub": user_id, "username": username})
-        new_refresh_token = create_refresh_token(data={"sub": user_id})
+        access_token = create_access_token(data={"sub": email, "name": name})
+        new_refresh_token = create_refresh_token(data={"sub": email})
 
         return Token(
             access_token=access_token,
@@ -128,15 +130,15 @@ def get_profile(
             if condition:
                 conditions.append(condition.name)
 
-        profile = UserProfile(
+        return UserProfile(
             id=current_user.id,
             name=current_user.name,
+            email=current_user.email,
             dob=current_user.dob,
             mobile=current_user.mobile,
+            is_active=current_user.is_active,
             health_conditions=conditions
         )
-
-        return profile
 
     except Exception as ex:
         LOGGER.error(f"Error fetching profile: {str(ex)}")
@@ -149,5 +151,5 @@ def get_profile(
 @router.post('/logout')
 def logout(current_user: User = Depends(get_current_user)):
     """Logout user (client should delete tokens)"""
-    LOGGER.info(f"User {current_user.name} logged out")
+    LOGGER.info(f"User {current_user.email} logged out")
     return {"message": "Logged out successfully"}
