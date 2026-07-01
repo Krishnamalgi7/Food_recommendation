@@ -86,8 +86,7 @@ class ImprovedKNNFoodRecommender:
                     requirements['Fiber'] += condition.fiber_grm or 0
                     requirements['Protein'] += condition.protein_grm or 0
                     requirements['Sodium'] += condition.sodium_grm or 0
-                    # Calories, Saturated_Fat, Cholesterol, Sugar are not in health conditions table
-                    # They will default to 0.0
+                    requirements['Sugar'] += condition.sugar_grm or 0  # Now stored in DB
 
             num_conditions = len(user_conditions)
             # Average across conditions

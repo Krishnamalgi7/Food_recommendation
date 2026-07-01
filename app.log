@@ -5832,3 +5832,143 @@ nutrients.Cholesterol
 2026-07-01 14:11:21,631 - backend.utils.logger - INFO - Food Recommendation System shutting down
 2026-07-01 14:11:21,631 - backend.utils.logger - INFO - Food Recommendation System shutting down
 2026-07-01 14:11:21,631 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2026-07-01 14:59:07,191 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2026-07-01 14:59:07,191 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2026-07-01 14:59:07,191 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2026-07-01 14:59:07,191 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2026-07-01 14:59:07,191 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2026-07-01 14:59:07,191 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2026-07-01 14:59:07,191 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2026-07-01 15:00:18,507 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged in successfully
+2026-07-01 15:00:18,507 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged in successfully
+2026-07-01 15:00:18,507 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged in successfully
+2026-07-01 15:00:18,507 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged in successfully
+2026-07-01 15:00:18,507 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged in successfully
+2026-07-01 15:00:18,507 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged in successfully
+2026-07-01 15:00:18,507 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged in successfully
+2026-07-01 15:00:40,992 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com updated profile
+2026-07-01 15:00:40,992 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com updated profile
+2026-07-01 15:00:40,992 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com updated profile
+2026-07-01 15:00:40,992 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com updated profile
+2026-07-01 15:00:40,992 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com updated profile
+2026-07-01 15:00:40,992 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com updated profile
+2026-07-01 15:00:40,992 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com updated profile
+2026-07-01 15:01:05,987 - backend.utils.logger - INFO - Added 1 conditions for user 4
+2026-07-01 15:01:05,987 - backend.utils.logger - INFO - Added 1 conditions for user 4
+2026-07-01 15:01:05,987 - backend.utils.logger - INFO - Added 1 conditions for user 4
+2026-07-01 15:01:05,987 - backend.utils.logger - INFO - Added 1 conditions for user 4
+2026-07-01 15:01:05,987 - backend.utils.logger - INFO - Added 1 conditions for user 4
+2026-07-01 15:01:05,987 - backend.utils.logger - INFO - Added 1 conditions for user 4
+2026-07-01 15:01:05,987 - backend.utils.logger - INFO - Added 1 conditions for user 4
+2026-07-01 15:02:05,374 - backend.utils.logger - INFO - Loaded 998 food items
+2026-07-01 15:02:05,374 - backend.utils.logger - INFO - Loaded 998 food items
+2026-07-01 15:02:05,374 - backend.utils.logger - INFO - Loaded 998 food items
+2026-07-01 15:02:05,374 - backend.utils.logger - INFO - Loaded 998 food items
+2026-07-01 15:02:05,374 - backend.utils.logger - INFO - Loaded 998 food items
+2026-07-01 15:02:05,374 - backend.utils.logger - INFO - Loaded 998 food items
+2026-07-01 15:02:05,374 - backend.utils.logger - INFO - Loaded 998 food items
+2026-07-01 15:02:05,381 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:02:05,381 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:02:05,381 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:02:05,381 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:02:05,381 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:02:05,381 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:02:05,381 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:02:05,443 - backend.utils.logger - INFO - Generated 10 recommendations for user 4 using hybrid scoring
+2026-07-01 15:02:05,443 - backend.utils.logger - INFO - Generated 10 recommendations for user 4 using hybrid scoring
+2026-07-01 15:02:05,443 - backend.utils.logger - INFO - Generated 10 recommendations for user 4 using hybrid scoring
+2026-07-01 15:02:05,443 - backend.utils.logger - INFO - Generated 10 recommendations for user 4 using hybrid scoring
+2026-07-01 15:02:05,443 - backend.utils.logger - INFO - Generated 10 recommendations for user 4 using hybrid scoring
+2026-07-01 15:02:05,443 - backend.utils.logger - INFO - Generated 10 recommendations for user 4 using hybrid scoring
+2026-07-01 15:02:05,443 - backend.utils.logger - INFO - Generated 10 recommendations for user 4 using hybrid scoring
+2026-07-01 15:02:05,446 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:02:05,446 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:02:05,446 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:02:05,446 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:02:05,446 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:02:05,446 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:02:05,446 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:02:05,446 - backend.utils.logger - INFO - Generated 10 recommendations for user 4
+2026-07-01 15:02:05,446 - backend.utils.logger - INFO - Generated 10 recommendations for user 4
+2026-07-01 15:02:05,446 - backend.utils.logger - INFO - Generated 10 recommendations for user 4
+2026-07-01 15:02:05,446 - backend.utils.logger - INFO - Generated 10 recommendations for user 4
+2026-07-01 15:02:05,446 - backend.utils.logger - INFO - Generated 10 recommendations for user 4
+2026-07-01 15:02:05,446 - backend.utils.logger - INFO - Generated 10 recommendations for user 4
+2026-07-01 15:02:05,446 - backend.utils.logger - INFO - Generated 10 recommendations for user 4
+2026-07-01 15:02:29,842 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged out
+2026-07-01 15:02:29,842 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged out
+2026-07-01 15:02:29,842 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged out
+2026-07-01 15:02:29,842 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged out
+2026-07-01 15:02:29,842 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged out
+2026-07-01 15:02:29,842 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged out
+2026-07-01 15:02:29,842 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged out
+2026-07-01 15:02:40,985 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2026-07-01 15:02:40,985 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2026-07-01 15:02:40,985 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2026-07-01 15:02:40,985 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2026-07-01 15:02:40,985 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2026-07-01 15:02:40,985 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2026-07-01 15:02:40,985 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2026-07-01 15:07:22,156 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2026-07-01 15:07:22,156 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2026-07-01 15:07:22,156 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2026-07-01 15:07:22,156 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2026-07-01 15:07:22,156 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2026-07-01 15:07:22,156 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2026-07-01 15:07:22,156 - backend.utils.logger - INFO - Food Recommendation System started successfully
+2026-07-01 15:07:39,423 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged in successfully
+2026-07-01 15:07:39,423 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged in successfully
+2026-07-01 15:07:39,423 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged in successfully
+2026-07-01 15:07:39,423 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged in successfully
+2026-07-01 15:07:39,423 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged in successfully
+2026-07-01 15:07:39,423 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged in successfully
+2026-07-01 15:07:39,423 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged in successfully
+2026-07-01 15:08:02,590 - backend.utils.logger - INFO - Loaded 998 food items
+2026-07-01 15:08:02,590 - backend.utils.logger - INFO - Loaded 998 food items
+2026-07-01 15:08:02,590 - backend.utils.logger - INFO - Loaded 998 food items
+2026-07-01 15:08:02,590 - backend.utils.logger - INFO - Loaded 998 food items
+2026-07-01 15:08:02,590 - backend.utils.logger - INFO - Loaded 998 food items
+2026-07-01 15:08:02,590 - backend.utils.logger - INFO - Loaded 998 food items
+2026-07-01 15:08:02,590 - backend.utils.logger - INFO - Loaded 998 food items
+2026-07-01 15:08:02,593 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:08:02,593 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:08:02,593 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:08:02,593 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:08:02,593 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:08:02,593 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:08:02,593 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:08:02,615 - backend.utils.logger - INFO - Generated 15 recommendations for user 4 using hybrid scoring
+2026-07-01 15:08:02,615 - backend.utils.logger - INFO - Generated 15 recommendations for user 4 using hybrid scoring
+2026-07-01 15:08:02,615 - backend.utils.logger - INFO - Generated 15 recommendations for user 4 using hybrid scoring
+2026-07-01 15:08:02,615 - backend.utils.logger - INFO - Generated 15 recommendations for user 4 using hybrid scoring
+2026-07-01 15:08:02,615 - backend.utils.logger - INFO - Generated 15 recommendations for user 4 using hybrid scoring
+2026-07-01 15:08:02,615 - backend.utils.logger - INFO - Generated 15 recommendations for user 4 using hybrid scoring
+2026-07-01 15:08:02,615 - backend.utils.logger - INFO - Generated 15 recommendations for user 4 using hybrid scoring
+2026-07-01 15:08:02,617 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:08:02,617 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:08:02,617 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:08:02,617 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:08:02,617 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:08:02,617 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:08:02,617 - backend.utils.logger - INFO - Calculated nutrient requirements for user 4
+2026-07-01 15:08:02,618 - backend.utils.logger - INFO - Generated 15 recommendations for user 4
+2026-07-01 15:08:02,618 - backend.utils.logger - INFO - Generated 15 recommendations for user 4
+2026-07-01 15:08:02,618 - backend.utils.logger - INFO - Generated 15 recommendations for user 4
+2026-07-01 15:08:02,618 - backend.utils.logger - INFO - Generated 15 recommendations for user 4
+2026-07-01 15:08:02,618 - backend.utils.logger - INFO - Generated 15 recommendations for user 4
+2026-07-01 15:08:02,618 - backend.utils.logger - INFO - Generated 15 recommendations for user 4
+2026-07-01 15:08:02,618 - backend.utils.logger - INFO - Generated 15 recommendations for user 4
+2026-07-01 15:08:42,661 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged out
+2026-07-01 15:08:42,661 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged out
+2026-07-01 15:08:42,661 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged out
+2026-07-01 15:08:42,661 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged out
+2026-07-01 15:08:42,661 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged out
+2026-07-01 15:08:42,661 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged out
+2026-07-01 15:08:42,661 - backend.utils.logger - INFO - User krishnamalgi6@gmail.com logged out
+2026-07-01 15:08:51,945 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2026-07-01 15:08:51,945 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2026-07-01 15:08:51,945 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2026-07-01 15:08:51,945 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2026-07-01 15:08:51,945 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2026-07-01 15:08:51,945 - backend.utils.logger - INFO - Food Recommendation System shutting down
+2026-07-01 15:08:51,945 - backend.utils.logger - INFO - Food Recommendation System shutting down

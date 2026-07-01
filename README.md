@@ -282,18 +282,12 @@ erDiagram
         int id PK
         string name UK
         text description
-        float calcium_grm
         float carbohydrates_grm
         float fats_grm
         float fiber_grm
-        float iron_grm
-        float magnesium_grm
-        float potassium_grm
         float protein_grm
         float sodium_grm
-        float vitamin_a_grm
-        float vitamin_b12_grm
-        float vitamin_c_grm
+        float sugar_grm
     }
 
     foods {

@@ -56,10 +56,9 @@ def parse_nutrients_from_row(row):
                 nutrients[nutrient_name] = value
             except (ValueError, TypeError):
                 nutrients[nutrient_name] = 0.0
-    
+
     # Set missing nutrients to 0.0 (required by system)
-    # Expected nutrients: Calcium, Carbohydrates, Fats, Fiber, Iron, Magnesium, 
-    # Potassium, Protein, Sodium, Vitamin_A, Vitamin_B12, Vitamin_C
+    # Active nutrients: Carbohydrates, Fats, Fiber, Protein, Sodium, Sugar
     expected_nutrients = {
     "Calories": nutrients.get("Calories", 0.0),
     "Carbohydrates": nutrients.get("Carbohydrates", 0.0),
@@ -130,18 +129,13 @@ def parse_nutrients(nutrients_value):
 def get_default_nutrients():
     """Return default nutrients structure"""
     return {
-        "Calcium": 0.0,
+        "Calories": 0.0,
         "Carbohydrates": 0.0,
         "Fats": 0.0,
         "Fiber": 0.0,
-        "Iron": 0.0,
-        "Magnesium": 0.0,
-        "Potassium": 0.0,
         "Protein": 0.0,
         "Sodium": 0.0,
-        "Vitamin_A": 0.0,
-        "Vitamin_B12": 0.0,
-        "Vitamin_C": 0.0
+        "Sugar": 0.0
     }
 
 
@@ -183,18 +177,12 @@ def load_health_conditions(db: Session):
                 condition = HealthCondition(
                     name=str(row['Disease']),
                     description=f"Dietary requirements for {row['Disease']}",
-                    calcium_grm=0.0,  # Not in dataset
                     carbohydrates_grm=float(row['Carbohydrate']) if pd.notna(row.get('Carbohydrate')) else 0.0,
                     fats_grm=float(row['Fat']) if pd.notna(row.get('Fat')) else 0.0,
                     fiber_grm=float(row['Fiber']) if pd.notna(row.get('Fiber')) else 0.0,
-                    iron_grm=0.0,  # Not in dataset
-                    magnesium_grm=0.0,  # Not in dataset
-                    potassium_grm=0.0,  # Not in dataset
                     protein_grm=float(row['Protein']) if pd.notna(row.get('Protein')) else 0.0,
                     sodium_grm=float(row['Sodium']) if pd.notna(row.get('Sodium')) else 0.0,
-                    vitamin_a_grm=0.0,  # Not in dataset
-                    vitamin_b12_grm=0.0,  # Not in dataset
-                    vitamin_c_grm=0.0  # Not in dataset
+                    sugar_grm=float(row['Sugar']) if pd.notna(row.get('Sugar')) else 0.0,
                 )
                 db.add(condition)
                 success_count += 1

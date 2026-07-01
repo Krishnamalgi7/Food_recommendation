@@ -3,20 +3,16 @@ from enum import Enum
 
 class Nutrient(Enum):
     """
-    Represents the key nutrients tracked.
+    Represents the nutrients actively tracked by the recommendation engine.
+    These correspond to the NUTRIENT_FEATURES list in knn_recommender.py
+    and the columns in the health_conditions table.
     """
-    CALCIUM = 'Calcium'
     CARBOHYDRATES = 'Carbohydrates'
     FATS = 'Fats'
     FIBER = 'Fiber'
-    IRON = 'Iron'
-    MAGNESIUM = 'Magnesium'
-    POTASSIUM = 'Potassium'
     PROTEIN = 'Protein'
     SODIUM = 'Sodium'
-    VITAMIN_A = 'Vitamin_A'
-    VITAMIN_B12 = 'Vitamin_B12'
-    VITAMIN_C = 'Vitamin_C'
+    SUGAR = 'Sugar'
 
 
 class HealthCondition(Enum):

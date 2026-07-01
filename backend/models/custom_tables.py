@@ -29,19 +29,13 @@ class HealthCondition(Base, BaseMixin):
     name = Column(String(255), unique=True, nullable=False, index=True)
     description = Column(Text)
 
-    # Nutrient requirements in grams
-    calcium_grm = Column(Float(precision=5))
+    # Nutrient requirements in grams (sourced from Health_Condition.csv)
     carbohydrates_grm = Column(Float(precision=5))
     fats_grm = Column(Float(precision=5))
     fiber_grm = Column(Float(precision=5))
-    iron_grm = Column(Float(precision=5))
-    magnesium_grm = Column(Float(precision=5))
-    potassium_grm = Column(Float(precision=5))
     protein_grm = Column(Float(precision=5))
     sodium_grm = Column(Float(precision=5))
-    vitamin_a_grm = Column(Float(precision=5))
-    vitamin_b12_grm = Column(Float(precision=5))
-    vitamin_c_grm = Column(Float(precision=5))
+    sugar_grm = Column(Float(precision=5))
 
     # Relationships
     user_conditions = relationship("UserConditionAssociation", back_populates="health_condition")
