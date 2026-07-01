@@ -1,23 +1,23 @@
-# 🍎 Food Recommendation System
+#  Food Recommendation System
 
 A personalized food recommendation system that uses **KNN (K-Nearest Neighbors)** machine learning to suggest foods based on user health conditions. Built with **FastAPI**, **PostgreSQL**, **Streamlit**, and **scikit-learn**.
 
 ---
 
-## ✨ Features
+## Key Features
 
-- **🤖 AI-Powered Recommendations** — KNN engine with cosine similarity, percentage matching, and hybrid scoring
-- **🏥 Health-Based Personalization** — 9 health conditions (Diabetes, Hypertension, Heart Disease, etc.) each with specific nutrient targets
-- **📊 Nutrient Matching** — Tracks 6 active nutrients: `Carbohydrates`, `Fats`, `Fiber`, `Protein`, `Sodium`, `Sugar`
-- **🍽️ 1,000+ Food Database** — Categorized food items with complete nutritional data and pricing
-- **🥗 Veg / Non-Veg Filtering** — Separate recommendation views for dietary preferences
-- **🔐 Email-Based JWT Authentication** — Login and registration use **email + password**. Tokens are JWT (access + refresh) with bcrypt password hashing
-- **👤 User Profiles** — Profile management, password change, and account settings
-- **📱 Responsive Dashboard** — Streamlit multi-page app with floating sidebar, card/table views, and interactive filters
+- **AI-Powered Recommendations** — KNN engine with cosine similarity, percentage matching, and hybrid scoring
+- ** Health-Based Personalization** — 9 health conditions (Diabetes, Hypertension, Heart Disease, etc.) each with specific nutrient targets
+- ** Nutrient Matching** — Tracks 6 active nutrients: `Carbohydrates`, `Fats`, `Fiber`, `Protein`, `Sodium`, `Sugar`
+- ** 1,000+ Food Database** — Categorized food items with complete nutritional data and pricing
+- ** Veg / Non-Veg Filtering** — Separate recommendation views for dietary preferences
+- ** Email-Based JWT Authentication** — Login and registration use **email + password**. Tokens are JWT (access + refresh) with bcrypt password hashing
+- ** User Profiles** — Profile management, password change, and account settings
+- ** Responsive Dashboard** — Streamlit multi-page app with floating sidebar, card/table views, and interactive filters
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 | Layer         | Technology                                        |
 | ------------- | ------------------------------------------------- |
@@ -31,7 +31,7 @@ A personalized food recommendation system that uses **KNN (K-Nearest Neighbors)*
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 food-recomendation-system-v1.2/
@@ -93,7 +93,7 @@ food-recomendation-system-v1.2/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -204,7 +204,7 @@ python -m streamlit run app.py
 
 ---
 
-## 🔐 Authentication
+##  Authentication
 
 Authentication is **email-based**. There is no "username" login.
 
@@ -219,7 +219,7 @@ The `access_token` expires after 30 minutes; use `POST /auth/refresh` to renew i
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Authentication
 
@@ -269,7 +269,7 @@ The `access_token` expires after 30 minutes; use `POST /auth/refresh` to renew i
 
 ---
 
-## 🧠 How the Recommendation Algorithm Works
+##  How the Recommendation Algorithm Works
 
 The system uses an **Improved KNN Food Recommender** with magnitude-based scoring:
 
@@ -300,7 +300,7 @@ All 6 features are weighted equally (`weight = 2.0`) in the scoring step.
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 ```mermaid
 erDiagram
@@ -358,7 +358,7 @@ erDiagram
 
 ---
 
-## 🛠️ Database Migrations
+##  Database Migrations
 
 If you are upgrading an **existing installation** (rather than seeding fresh), run the migration scripts in order:
 
@@ -377,7 +377,7 @@ Each script is **idempotent** — it checks whether the change is already applie
 
 ---
 
-## 🏥 Supported Health Conditions
+##  Supported Health Conditions
 
 | ID | Condition   | Sugar target | Carbs target | Protein target |
 | -- | ----------- | ------------ | ------------ | -------------- |
@@ -395,40 +395,40 @@ Each script is **idempotent** — it checks whether the change is already applie
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 The current system provides personalized food recommendations based on health conditions and nutritional similarity. Planned improvements include:
 
-- **🤖 Personalized Recommendations**
+- ** Personalized Recommendations**
   - Learn from user interactions such as likes, dislikes, and frequently selected foods to improve future recommendations.
 
-- **💡 Explainable AI Recommendations**
+- ** Explainable AI Recommendations**
   - Display why each food was recommended (e.g., *"High in protein and low in sodium, making it suitable for your selected health condition."*).
 
-- **🍽️ Meal Planning**
+- ** Meal Planning**
   - Generate complete breakfast, lunch, and dinner plans instead of recommending individual foods.
 
-- **🐳 Docker Support**
+- ** Docker Support**
   - Containerize the application using Docker and Docker Compose for one-command deployment.
 
-- **☁️ Cloud Deployment**
+- ** Cloud Deployment**
   - Deploy the application on platforms such as Render, Railway, or AWS with CI/CD for automated testing and deployment.
 
-- **📈 Recommendation Analytics**
+- ** Recommendation Analytics**
   - Track recommendation accuracy, user preferences, and popular food trends through an analytics dashboard.
 
-- **🩺 Multi-Condition Optimization**
+- ** Multi-Condition Optimization**
   - Improve recommendation logic for users with multiple health conditions by dynamically balancing nutritional priorities.
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational purposes.
 
 --- 
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - Built with [FastAPI](https://fastapi.tiangolo.com/), [Streamlit](https://streamlit.io/), and [scikit-learn](https://scikit-learn.org/)
 - Food nutrition dataset with 1,000+ items
